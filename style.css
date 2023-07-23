@@ -1,9 +1,15 @@
+body{
+    background-color: #ffffcc;
+    width: 768px;
+}
 /* ヘッダー */
 header {
     width: 768px;
     height: 70px;
-    display: flex
+    display: flex;
+    
 }
+
 header img{
     width:200px;
     height: 45px;
@@ -49,7 +55,7 @@ header a:hover{
     background-color: #ddd;
 }
 .burger.is_active{
-    background-image:url(./top_picture/close.png)
+    background-image:url(./top_picture/close.png);
 }
 /* メニュー */
 .menu {
@@ -89,20 +95,28 @@ header a:hover{
 
 .greeting h1 {
     position: absolute;
-    top: 250px;
+    top: 150px;
     left: 75px;
-    font-family: 'Caveat', cursive;
-    display: inline-block;
-    border-bottom: 3px solid;
-    padding-bottom: 2px;
-    border-radius: 3px; 
+    font-family: "Arial Black";
+    color: white;
 }
 .greeting h2 {
     position: absolute;
-    top: 300px;
+    top: 200px;
     left: 75px;
     font-family: 'Homemade Apple', cursive;
     display: inline-block;
+    color:white;
+}
+.top_start {
+    position:relative;
+    top: 5px;
+    left: 250px;
+    padding:15px 0px;
+}
+.top_start p{
+    margin:15px 0px;
+    font-family: 'Homemade Apple', cursive;
 }
 
 
