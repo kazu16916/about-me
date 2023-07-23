@@ -1,0 +1,79 @@
+/* ヘッダー */
+header {
+    width: 768px;
+    height: 70px;
+    display: flex
+}
+header img{
+    width:200px;
+    height: 45px;
+    padding: 15px 15px;
+}
+.nav1 {
+    margin:0 0 0 auto;
+    display: flex;
+    align-items:center;
+}
+header a {
+    color: black;
+}
+.nav1 ul {
+    display:none;
+}
+header li{
+    list-style:none;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+/* バーガー */
+.burger{
+    width:40px;
+    height:40px;
+    background-image: url(top_picture/burger.png);
+    background-size: 24px;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin:0 0 0 auto;
+    border-radius: 4px;
+    cursor: pointer;
+    position:relative;
+    z-index:2;
+} 
+.burger:hover{
+    background-color: #ddd;
+}
+.burger.is_active{
+    background-image:url(./top_picture/close.png)
+}
+/* メニュー */
+.menu {
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    width:100vw;
+    height:100vh;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:1;
+    display: none;
+}
+.menu.is_active{
+    display:flex;
+    
+}
+.menu.is_active li{
+    color:white;
+    
+}
+
+    
+

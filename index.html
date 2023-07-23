@@ -8,24 +8,37 @@
 </head>
 <body>
     <header>
-        <img src="./top_picture/main_logo.png">
-        <nav>
+        <a href="./index.html"><img src="./top_picture/main_logo.png"></a>
+        <div class="nav1">
             <ul>
-                <li class="top"><a href="#"></a>top</a></li>
-                <li class="pokemon"><a href="#"></a>Pokemon</a></li>
-                <li class="sweets"><a href="#"></a>Sweets</a></li>
-                <li class="melody"><a href="#"></a>meloDY</a></li>
-                <li class="about-me"><a href="#"></a>KazUtarou</a></li>
-                <li class="contact"><a href="#"></a>Contact</a></li>
+                <li class="top"><a href="./index.html">top</a></li>
+                <li class="pokemon"><a href="./pokemon/index.html">Pokemon</a></li>
+                <li class="sweets"><a href="./sweets/index.html">Sweets</a></li>
+                <li class="melody"><a href="./melody/index.html">meloDY</a></li>
+                <li class="about-me"><a href="./about/index.html">KazUtarou</a></li>
+                <li class="contact"><a href="./contact/index.html">Contact</a></li>
             </ul>
-        </nav>
+        </div>
+        <div class="nav2">
+            <div class="burger"></div>
+            <div class="menu">
+                <ul>
+                    <li class="top"><a href="./index.html"><img src="./top_picture/main_logo.png"></a></li>
+                    <li class="pokemon"><a href="./pokemon/index.html">pokemon</a></li>
+                    <li class="sweets"><a href="./sweets/index.html">Sweets</a></li>
+                    <li class="melody"><a href="./melody/index.html">meloDY</a></li>
+                    <li class="about-me"><a href="./about/index.html">KazUtarou</a></li>
+                    <li class="contact"><a href="./contact/index.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
         <div class="top_background">
             <img src="./top_picture/sea.jpg">
         </div>
         <div class="greeting">
-            <h1>mY SeConD name is KazutaroU</h1>
+            <h1>I am Kazutarou</h1>
             <h1>i wish Peace</h1>
         </div>
         <p>this website is about me!!</p>
@@ -107,6 +120,12 @@
         </div>
 
     </footer>
-    
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(".burger").click(function(){
+            $(".burger").toggleClass('is_active');
+            $(".menu").toggleClass('is_active');
+        });
+    </script>
 </body>
 </html>
