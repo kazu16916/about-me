@@ -1,6 +1,7 @@
 body{
     background-color: #ffffcc;
     width: 768px;
+    height:auto;
 }
 /* ヘッダー */
 header {
@@ -63,8 +64,8 @@ header a:hover{
     display: flex;
     align-items:center;
     justify-content:center;
-    width:100vw;
-    height:100vh;
+    width:800px;
+    height:auto;
     background-color: white;
     position: fixed;
     top:0;
@@ -74,13 +75,10 @@ header a:hover{
 }
 .menu.is_active{
     display:flex;
-    
 }
 .menu.is_active li{
     color:white;
-    
 }
-
 /* main */
 
 
