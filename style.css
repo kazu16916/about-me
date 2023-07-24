@@ -118,5 +118,9 @@ header a:hover{
     margin:15px 0px;
     font-family: 'Homemade Apple', cursive;
 }
+.sweets img {
+    width:200px;
+    height:auto;
+}
 
 
