@@ -2,6 +2,7 @@ body{
     background-color: #ffffcc;
     width: 768px;
     height:auto;
+
 }
 /* ヘッダー */
 header {
@@ -120,5 +121,89 @@ header a:hover{
     width:200px;
     height:auto;
 }
+.pokemon_page{
+    display:inline-block;
+    margin:50px 200px 50px 200px;
+}
+.pokemon_page p {
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    font-size:25px;
+}
+.sweets_page{
+    display:inline-block;
+    margin:50px 200px;
+}
+.sweets_page p {
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    font-size:25px;
+    margin-top:10px;
+}
+.melody_page{
+    display:inline-block;
+    margin:50px 200px;
+}
+.melody_page p {
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    font-size:25px;
+    margin-top:10px;
+}
+.kazutarou_page{
+    display:inline-block;
+    margin:50px 200px;
+}
+.kazutarou_page p {
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    font-size:25px;
+    margin-top:10px;
+}
+.motto {
+    position:relative;
+}
+.peace_photo img{
+    width: 668px;
+    margin:0 50px;
+}
+.motto_title h2{
+    color:white;
+    position:absolute;
+    top: 300px;
+    left: 75px;
+    font-family: 'Corben', cursive;
+}
+.motto_title2 h3{
+    color:white;
+    position:absolute;
+    top: 350px;
+    left: 75px;
+    font-family: 'DM Serif Display', serif
+}
+
+
+.footer_img img{
+    width:668px;
+    margin:25px 50px;
+}
+.footer_message {
+    position: relative;
+    text-align: center; /* 文字の中央寄せ */
+    margin:100px 0px 0px 0px;
+}
+.footer_message::before {
+    background-color: black; /* 線の色 */
+    border-radius: 5px; /* 線の両端を丸く */
+    bottom: -10px; /* 線の位置 */
+    content: "";
+    height: 3px; /* 線の高さ */
+    left: 50%; /* 線の中央寄せ */
+    position: absolute;
+    transform: translateX(-50%); /* 線の中央寄せ */
+    width: 100px; /* 線の長さ */
+}
+
+
 
 
