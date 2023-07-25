@@ -1,3 +1,24 @@
 .burger{
     margin:10px 0px;
 }
+.pokemon_img img{
+    width:668px;
+    margin:0 50px 0 50px;
+}
+.pokemon_start {
+    position:relative;
+}
+.pokemon_title1 {
+    position:absolute;
+    top: 150px;
+    left: 70px;
+    color:black;
+    font-family: "Arial Black";
+}
+.pokemon_title2 {
+    position:absolute;
+    top: 200px;
+    left: 70px;
+    color:black;
+    font-family: 'Homemade Apple', cursive;
+}
