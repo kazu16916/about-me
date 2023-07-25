@@ -183,16 +183,16 @@ header a:hover{
 }
 
 
-.footer_img img{
+.main_fin_img img{
     width:668px;
     margin:25px 50px;
 }
-.footer_message {
+.main_fin_message {
     position: relative;
     text-align: center; /* 文字の中央寄せ */
     margin:100px 0px 0px 0px;
 }
-.footer_message::before {
+.main_fin_message::before {
     background-color: black; /* 線の色 */
     border-radius: 5px; /* 線の両端を丸く */
     bottom: -10px; /* 線の位置 */
@@ -203,6 +203,54 @@ header a:hover{
     transform: translateX(-50%); /* 線の中央寄せ */
     width: 100px; /* 線の長さ */
 }
+footer {
+    background-color:#E2ADB3;
+}
+.footer2 {
+    display:flex;
+    position:relative;
+}
+.main_logo img{
+    width:200px;
+    margin:25px 0px 0px 25px;
+}
+footer li{
+    list-style:none;
+    padding: 10px;
+    border-bottom:solid 2px white;
+    width:345px
+}
+footer a{
+    width:345px;
+}
+footer a {
+    text-decoration: none;
+    color:white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.footer_picture img{
+    width:300px;
+    position:absolute;
+    left:460px;
+}
+span {
+    padding-left:265px;
+    color:white;
+}
+.end_footer {
+    background-color:	#CE8A8D;
+
+}
+.end_footer img{
+    display:block;
+    margin:auto;
+    width:20%;
+}
+
+
+
 
 
 
