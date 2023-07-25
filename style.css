@@ -19,15 +19,17 @@ header img{
 }
 .nav1 {
     margin:0 0 0 auto;
-    display: flex;
     align-items:center;
+    width:400px;
+}
+.nav1 ul{
+    display:flex;
+    display:none;
 }
 header a {
     color: black;
 }
-.nav1 ul {
-    display:none;
-}
+
 header li{
     list-style:none;
     padding: 10px;
