@@ -4,22 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pokemon</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Corben:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     
 </head>
 <body>
     <header>
-        <img src="./top_picture/main_logo.png">
-        <nav>
+        <a href="../index.html"><img src="../top_picture/main_logo.png"></a>
+        <div calss="nav1">
             <ul>
-                <li class="top"><a href="#"></a>top</a></li>
-                <li class="pokemon"><a href="#">Pokemon</a></li>
-                <li class="sweets"><a href="#"></a>Sweets</a></li>
-                <li class="melody"><a href="#"></a>meloDY</a></li>
-                <li class="about-me"><a href="#"></a>KazUtarou</a></li>
-                <li class="contact"><a href="#"></a>Contact</a></li>
+                <li class="top"><a href="../index.html">top</a></li>
+                <li class="pokemon"><a href="../pokemon/index.html">Pokemon</a></li>
+                <li class="sweets"><a href="../sweets/index.html">Sweets</a></li>
+                <li class="melody"><a href="../melody/index.html">meloDY</a></li>
+                <li class="about-me"><a href="../about/index.html">KazUtarou</a></li>
+                <li class="contact"><a href="../contact/index.html">Contact</a></li>
             </ul>
-        </nav>
+        </div>
+        <div class="nav2">
+            <div class="burger"></div>
+            <div class="menu">
+                <ul>
+                    <li class="top"><a href="../index.html"><img src="../top_picture/main_logo.png"></a></li>
+                    <li class="pokemon"><a href="../pokemon/index.html"><img src="../top_picture/ポケモン.png"></a></li>
+                    <li class="sweets"><a href="../sweets/index.html"><img src="../top_picture/sweets_logo1.png"></a></li>
+                    <li class="melody"><a href="../melody/index.html"><img src="../top_picture/music_logo.png"></a></li>
+                    <li class="about-me"><a href="../about/index.html"><img src="../top_picture/kazutarou_logo.png"></a></li>
+                    <li class="contact"><a href="../contact/index.html"><img src="../top_picture/contact.png"></a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
         <div class="pokemon_img">
@@ -108,19 +126,26 @@
         <div class="nav2">
             <nav>
                 <ul>
-                    <li class="top"><a href="#"></a>top</a></li>
-                    <li class="pokemon"><a href="#"></a>Pokemon</a></li>
-                    <li class="sweets"><a href="#"></a>Sweets</a></li>
-                    <li class="melody"><a href="#"></a>meloDY</a></li>
-                    <li class="about-me"><a href="#"></a>KazUtarou</a></li>
-                    <li class="contact"><a href="#"></a>Contact</a></li>
+                    <li class="top"><a href="./index.html"></a>top</a></li>
+                    <li class="pokemon"><a href="../pokemon/index.html"></a>Pokemon</a></li>
+                    <li class="sweets"><a href="../sweets/index.html"></a>Sweets</a></li>
+                    <li class="melody"><a href="../melody/index.html"></a>meloDY</a></li>
+                    <li class="about-me"><a href="../about/index.html"></a>KazUtarou</a></li>
+                    <li class="contact"><a href="../contact/index.html"></a>Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div class="footer_logo">
-            <img src="./top_picture/main_logo.png">
+            <img src="../top_picture/kazutarou_logo.png">
         </div>
 
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(".burger").click(function(){
+            $(".burger").toggleClass('is_active');
+            $(".menu").toggleClass('is_active');
+        });
+    </script>
 </body>
 </html>
