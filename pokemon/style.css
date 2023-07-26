@@ -22,3 +22,64 @@
     color:black;
     font-family: 'Homemade Apple', cursive;
 }
+.pokemon_nav ul{
+    display:flex;
+    margin:30px auto;
+    width:300px;
+}
+.pokemon_nav li{
+    list-style:none;
+    padding:0 5px;
+    border-left:solid 1px black;
+    color:black;
+    font-family: 'Caveat', cursive;
+    font-size:25px
+}
+.pokemon_nav a {
+    text-decoration: none;
+    color:black;
+}
+.pokemon_nav a:hover{
+    text-decoration: underline;
+}
+
+.melody{
+    border-right:solid 1px black;
+}
+.go_logo img{
+    margin:50px 150px;
+}
+.information p{
+    margin:20px 20px;
+    font-family: "Arial Black";
+}
+.info {
+    display:flex;
+    margin:30px 50px
+}
+.day_ob img{
+    width:200px;
+    height:200px;
+}
+.walk_ob img{
+    width:200px;
+    height:200px;
+    margin:0 15px 0 30px;
+}
+.catch_ob img{
+    width:200px;
+    height:200px;
+    margin:0 0px 0 15px;
+}
+.day_ex p{
+    text-align:center;
+    font-family: 'Homemade Apple', cursive;
+}
+.walk_ex p{
+    text-align:center;
+    font-family: 'Homemade Apple', cursive;
+}
+.catch_ex p{
+    text-align:center;
+    font-family: 'Homemade Apple', cursive;
+}
