@@ -23,19 +23,161 @@
     width:468px;
     font-family: 'Homemade Apple', cursive;
 }
+.favorite {
+    display:flex;
+}
+.fresh_cream {
+    background-color:white;
+    width:250px;
+    height:295px;
+    margin:30px 5px 30px 50px;
+}
+.fresh_cream p{
+    margin:0 0 1px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
 .fresh_cream_img img{
     width:200px;
     height:auto;
+    margin: 15px 7.5px;
+}
+.peach p{
+    margin:0 0 1px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+.peach {
+    background-color:white;
+    width:250px;
+    height:295px;
+    margin:30px 5px 30px 5px;
 }
 .peach img{
     width:200px;
     height:auto;
     background-color:black;
     background-size:300px 300px;
+    margin: 15px 7.5px;
+}
+.cheese {
+    background-color:white;
+    width:250px;
+    height:295px;
+    margin:30px 50px 30px 5px;
+}
+.cheese p{
+    margin:0 0 1px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
 }
 .cheese img{
     width:200px;
     height:auto;
     background-color:black;
     background-size:300px 300px;
+    margin: 15px 7.5px;
+}
+.snacks_logo img{
+    width:468px;
+    margin: 30px 170px;
+}
+.My_favorite_snacks {
+    text-align:center;
+}
+.snack1 {
+    display:inline-block;
+}
+.snacks_title p{
+    margin:0 60px;
+}
+.my_favorite_snacks_img img{
+    width:200px;
+    height:270px;
+    margin:10px 25px 0 25px;
+}
+.snack1_ob {
+    background-color:white;
+    width:250px;
+    height:310px;
+    margin:30px 20px 30px 0px;
+}
+.snack1_ob p{
+    margin:0 0 10px 0;
+    text-align:center;
+}
+.snack2 {
+    display:inline-block;
+}
+.snacks_title2 p{
+    margin:0 25px;
+}
+.my_second_favorite_snacks_img img {
+    width:200px;
+    height:270px;
+    margin:10px 25px 0px 25px;
+}
+.snack2_ob  {
+    background-color:white;
+    width:250px;
+    height:310px;
+    margin:30px 0px 30px 20px;
+}
+.snack2_ob p{
+    margin:0 0 10px 0;
+    text-align:center;
+}
+
+.sweets_buffet_logo img{
+    width:468px;
+    margin:30px 173px;
+}
+.sweets_buffet_main{
+    position:relative;
+}
+.sweets_buffet_message{
+    color: #000;
+    -webkit-text-stroke: 0.5px #FFF;
+}
+.sweets_buffet_message h2{
+    position:absolute;
+    top:50px;
+    left:75px;
+    font-family: 'Cherry Swash', cursive;
+    font-size:25px;
+}
+.sweets_buffet_message h3{
+    position:absolute;
+    top:85px;
+    left:75px;
+    font-family: 'Cherry Swash', cursive;
+    font-size:23px;
+}
+.sweets_buffet_picture img{
+    margin:30px 50px;
+}
+.sweets_buffet_invite {
+    position:relative;
+}
+.sweets_buffet_invite_picture img{
+    margin:0 50px;
+}
+.sweets_buffet_invite_message p{
+    position:absolute;
+    top:0px;
+    left:77px;
+    font-family: 'Oswald', sans-serif;
+    font-size:25px;
+}
+.sweets_buffet_invite_message2 p{
+    position:absolute;
+    top:50px;
+    left:75px;
+    font-family: 'Caveat', cursive;
+    font-size:21px;
+}
+.invite p{
+    font-family: 'Homemade Apple', cursive;
+    margin:30px 0;
+    text-align:center;
 }

@@ -207,6 +207,7 @@ header a:hover{
 }
 footer {
     background-color:#E2ADB3;
+    margin:0 50px;
 }
 .footer2 {
     display:flex;
@@ -220,7 +221,7 @@ footer li{
     list-style:none;
     padding: 10px;
     border-bottom:solid 2px white;
-    width:345px
+    width:290px
 }
 footer a{
     width:345px;
@@ -235,10 +236,10 @@ footer a:hover{
 .footer_picture img{
     width:300px;
     position:absolute;
-    left:460px;
+    left:360px;
 }
 span {
-    padding-left:265px;
+    padding-left:220px;
     color:white;
 }
 .end_footer {
@@ -250,6 +251,7 @@ span {
     margin:auto;
     width:20%;
 }
+
 
 
 
