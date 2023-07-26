@@ -24,7 +24,7 @@
 }
 .pokemon_nav ul{
     display:flex;
-    margin:30px auto;
+    margin:70px auto;
     width:300px;
 }
 .pokemon_nav li{
@@ -48,6 +48,19 @@
 }
 .go_logo img{
     margin:50px 150px;
+}
+.go_img {
+    position:relative;
+    margin:0 50px 0 50px;
+
+}
+.go_img h3{
+    position:absolute;
+    top:0px;
+    left:70px;
+    color:white;
+    font-family: 'Kaushan Script', cursive;
+    font-size:30px;
 }
 .information p{
     margin:20px 20px;
@@ -83,3 +96,66 @@
     text-align:center;
     font-family: 'Homemade Apple', cursive;
 }
+.anime_logo img{
+    margin:50px 150px;
+}
+.anime_img {
+    position:relative;
+    margin:0 50px 0 50px;
+
+}
+.anime_img h3{
+    position:absolute;
+    top:10px;
+    left:70px;
+    font-family: 'Kaushan Script', cursive;
+    font-size:30px;
+}
+
+.region_ob img{
+    width:200px;
+}
+.character_ob img{
+    width:200px;
+}
+.my_favorite_pokemon_ob img{
+    width:200px;
+}
+.anime_info {
+    display:flex;
+}
+.anime_info {
+    margin:30px 50px;
+}
+.region_ob {
+    margin:0 15px 0 0 
+}
+.character_ob {
+    margin:0 15px 0 15px;
+}
+.my_favorite_pokemon{
+    margin:0 0 0 15px;
+}
+.region_ex p{
+    font-family: "Arial Black";
+}
+.character_ex p{
+    font-family: "Arial Black";
+}
+.my_favorite_pokemon_ex p{
+    font-family: "Arial Black";
+}
+.region_ob p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.satoshi_img p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.psyduck_img p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+
+
