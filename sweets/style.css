@@ -1,0 +1,41 @@
+.sweets_start {
+    position:relative;
+}
+.sweets_main_picture {
+    margin:0px 50px;
+}
+.sweets_title h2{
+    position:absolute;
+    bottom:50px;
+    right:75px;
+    color:white;
+    font-family: 'Anton', sans-serif;
+}
+.sweets_title2 h3{
+    position:absolute;
+    bottom:20px;
+    right:75px;
+    color:white;
+    font-family: 'Cherry Swash', cursive;
+}
+.sweets_ex p{
+    margin:40px 250px;
+    width:468px;
+    font-family: 'Homemade Apple', cursive;
+}
+.fresh_cream_img img{
+    width:200px;
+    height:auto;
+}
+.peach img{
+    width:200px;
+    height:auto;
+    background-color:black;
+    background-size:300px 300px;
+}
+.cheese img{
+    width:200px;
+    height:auto;
+    background-color:black;
+    background-size:300px 300px;
+}
