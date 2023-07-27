@@ -162,22 +162,84 @@
 .sweets_buffet_invite_picture img{
     margin:0 50px;
 }
-.sweets_buffet_invite_message p{
-    position:absolute;
-    top:0px;
-    left:77px;
-    font-family: 'Oswald', sans-serif;
-    font-size:25px;
+.sweets_buffet_invite_message {
+    position: relative;
+    text-align: center; /* 文字の中央寄せ */
+    margin:100px 0px 60px 0px;
+    font-family: 'Bangers', cursive;
+    font-size:28px;
+
 }
-.sweets_buffet_invite_message2 p{
-    position:absolute;
-    top:50px;
-    left:75px;
-    font-family: 'Caveat', cursive;
-    font-size:21px;
+.sweets_buffet_invite_message::before {
+    background-color: black; /* 線の色 */
+    border-radius: 5px; /* 線の両端を丸く */
+    bottom: -10px; /* 線の位置 */
+    content: "";
+    height: 3px; /* 線の高さ */
+    left: 50%; /* 線の中央寄せ */
+    position: absolute;
+    transform: translateX(-50%); /* 線の中央寄せ */
+    width: 100px; /* 線の長さ */
 }
 .invite p{
     font-family: 'Homemade Apple', cursive;
     margin:30px 0;
     text-align:center;
 }
+.want_message p{
+    margin:20px 60px;
+    font-family: 'Caveat', cursive;
+    font-size:20px;
+}
+.want{
+    display:flex;
+    margin:10px 50px;
+}
+.cakes_img img{
+    width:200px;
+    height:270px;
+    margin:10px 5px 0px 5px;
+}
+.cakes {
+    background-color:white;
+    width:210px;
+    height:320px; 
+    
+}
+.cakes p{
+    margin:0 0 2px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+.donuts_img img{
+    width:200px;
+    height:270px;
+    margin:10px 5px 0 5px;
+}
+.donuts {
+    background-color:white;
+    width:210px;
+    height:320px;
+    margin:0 20px 0 20px;
+}
+.donuts p{
+    margin:0 0 1px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+.Macarons_img img{
+    width:200px;
+    height:270px;
+    margin:10px 5px 0 5px;
+}
+.Macarons {
+    background-color:white;
+    width:210px;
+    height:320px;
+}
+.Macarons p{
+    margin:0 0 1px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+
