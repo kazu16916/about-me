@@ -238,8 +238,28 @@ footer a:hover{
     position:absolute;
     left:360px;
 }
-span {
-    padding-left:220px;
+.top span {
+    padding-left:260px;
+    color:white;
+}
+.pokemon span {
+    padding-left:213px;
+    color:white;
+}
+.sweets span {
+    padding-left:228px;
+    color:white;
+}
+.melody2 span {
+    padding-left:224px;
+    color:white;
+}
+.about_me span {
+    padding-left:202px;
+    color:white;
+}
+.contact2 span {
+    padding-left:222px;
     color:white;
 }
 .end_footer {

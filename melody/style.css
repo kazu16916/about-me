@@ -188,7 +188,7 @@
     font-family: 'Corben', cursive;
 }
 .pokemon_diamond_pearl_songs {
-    margin:25px 125px;
+    margin:25px 150px;
 }
 
 .together_img img{
@@ -222,7 +222,7 @@
     font-family: 'Corben', cursive;
 }
 .pokemon_best_wishes_songs {
-    margin:25px 125px;
+    margin:25px 150px;
 }
 
 .pokemon_name img{
@@ -296,7 +296,7 @@
 }
 
 .pokemon_xyz_songs2 {
-    margin:25px 125px;
+    margin:25px 150px;
 }
 
 .kirakira_img img{
@@ -323,3 +323,65 @@
     text-align:center;
     font-family: 'Caveat', cursive;
 }
+
+.sun_moon {
+    margin:25px 50px;
+}
+.pokemon_ranking6_p p{
+    margin:50px 50px;
+    font-family: 'Corben', cursive;
+}
+.sun_moon_song_img img{
+    width:150px;
+    height:150px;
+    margin:0 225px;
+}
+.pokemon_sun_moon_songs {
+    display:inline-block;
+}
+.pokemon_sun_moon_songs p{
+    text-align:center;
+}
+
+.new_indigo_league {
+    margin:25px 50px;
+}
+.pokemon_ranking7_p p{
+    margin:50px 50px;
+    font-family: 'Corben', cursive;
+}
+.new_indigo_league_song_img img{
+    width:150px;
+    height:150px;
+    margin:0 225px;
+}
+.pokemon_new_indigo_league_song {
+    display:inline-block;
+}
+.pokemon_new_indigo_league_song p{
+    text-align:center;
+}
+
+.hatena_songs {
+margin:25px 50px;
+}
+.other_songs_p p{
+    margin:50px 50px;
+    font-family: 'Corben', cursive;
+}
+.hatena_song_img img{
+    width:150px;
+    height:150px;
+    margin:0 225px;
+}
+.hatena_song_img {
+    display:inline-block;
+}
+.hatena_song_img p{
+    text-align:center;
+}
+.about_me span {
+    padding-left:200px;
+    color:white;
+}
+
