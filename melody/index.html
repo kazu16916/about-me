@@ -4,88 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Corben:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cherry+Swash:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="./top_picture/main_logo.png">
-        <nav>
+        <a href="../index.html"><img src="../top_picture/main_logo.png"></a>
+        <div class="nav1">
             <ul>
-                <li class="top"><a href="#"></a>top</a></li>
-                <li class="pokemon"><a href="#"></a>Pokemon</a></li>
-                <li class="sweets"><a href="#"></a>Sweets</a></li>
-                <li class="melody"><a href="#"></a>meloDY</a></li>
-                <li class="about-me"><a href="#"></a>KazUtarou</a></li>
-                <li class="contact"><a href="#"></a>Contact</a></li>
+                <li class="top"><a href="../index.html">top</a></li>
+                <li class="pokemon"><a href="../pokemon/index.html">Pokemon</a></li>
+                <li class="sweets"><a href="../sweets/index.html">Sweets</a></li>
+                <li class="melody"><a href="../melody/index.html">meloDY</a></li>
+                <li class="about-me"><a href="../about/index.html">KazUtarou</a></li>
+                <li class="contact"><a href="../contact/index.html">Contact</a></li>
             </ul>
-        </nav>
+        </div>
+        <div class="nav2">
+            <div class="burger"></div>
+            <div class="menu">
+                <ul>
+                    <li class="top"><a href="../index.html"><img src="../top_picture/main_logo.png"></a></li>
+                    <li class="pokemon"><a href="../pokemon/index.html"><img src="../top_picture/ポケモン.png"></a></li>
+                    <li class="sweets"><a href="../sweets/index.html"><img src="../top_picture/sweets_logo1.png"></a></li>
+                    <li class="melody"><a href="../melody/index.html"><img src="../top_picture/music_logo.png"></a></li>
+                    <li class="about-me"><a href="../about/index.html"><img src="../top_picture/kazutarou_logo.png"></a></li>
+                    <li class="contact"><a href="../contact/index.html"><img src="../top_picture/contact.png"></a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
         <div class="melody_top">
+            <div class="melody_picture">
+                <img src="../melody_picture/melody.jpg" width="668px">
+            </div>
             <h2>Listening to music warms my heart</h2>
             <h3>Music save world peace too.</h3>
-            <div class="melody_picture">
-                <img src="../melody_picture/melody.jpg">
-            </div>
-            <div class="melody_favorire">
-                <div class="DC">
-                    <div class="DC_picture">
-                        <img src="../melody_picture/Detective_conan_logo_internazionale.png">
-                    </div>
-                    <P>Detective Conan's songs</P>
-                </div>
-                <div class="pokemon">
-                    <div class="Pokemon_picture">
-                        <img src="../melody_picture/pokemon.png">
-                    </div>
-                    <P>Pokemon's songs</P>
-                </div>
-                <div class="other_songs">
-                    <div class="othre_picture">
-                        <img src="../melody_picture/hatenabox.png">
-                    </div>
-                    <P>other songs</P>
-                </div>
-            </div>
+        </div>
+        <div class="melody_nav">
+            <ul>
+                <li class="detective_conan_song"><a href="#detective_conan_songs">Detective Conan</a></li>
+                <li class="pokemon_songs"><a href="#pokemon_songs">Pokemon</a></li>
+            </ul>
         </div>
 
-        <div class="detective_conan_songs">
+        <div id="detective_conan_songs">
             <div class="detective_conan_songs_logo">
                 <img src="../melody_picture/Detective_conan_logo_internazionale.png">
             </div>
             <div class="DC_ranking">
                 <div class="DC_ranking1">
                     <div class="DC_ranking1_picture">
-                        <img src="../melody_picture/I-can't-stop-my-love-for-you.png">
+                        <img src="../melody_picture/I-can't-stop-my-love-for-you.jpg">
                     </div>
                     <div class="ranking1_title">
-                        <p>No.1 I can't stop my love for you</p>
+                        <p>I can't stop my love for you</p>
                     </div>
                     
                 </div>
                 <div class="DC_ranking2">
                     <div class="DC_ranking2_picture">
-                        <img src="../melody_picture/恋はthrill,shock,suspense.png">
+                        <img src="../melody_picture/恋はthrill,shock,suspense.jpg">
                     </div>
                     <div class="ranking2_title">
-                        <p>No.2 恋はthrill,shock,suspense</p>
+                        <p>This love is thrill,shock,suspense</p>
                     </div>
                     
                 </div>
             </div>
         </div>
-        <div class="pokemon_songs">
+        <div id="pokemon_songs">
             <div class="pokemon_songs_logo">
                 <img src="../melody_picture/pokemon.png">
             </div>
             <div class="pokemon_indigo_league">
-                <div class="pokemon_indigo_league_picture">
-                    <div class="pokemon_ranking1_picture">
-                        <img src="../melody_picture/Indigo League.png">
+                <div class="pokemon_indigo_league_p">
+                    <div class="pokemon_ranking1_p">
+                        <p>Indigo League</p>
                     </div>
                     <div class="pokemon_indigo_league_songs">
                         <div class="go_for_pokemon_master">
-                            <div class="go_for_Pokémon_Master_img">
+                            <div class="go_for_Pokemon_Master_img">
                                 <img src="../top_picture/pokemonball.png">
                             </div>
                             <p>Go for pokemon master</p>
@@ -96,19 +107,19 @@
                             </div>
                             <p>OK!</p>
                         </div>
-                        <div class="type_wild">
-                            <div class="type_wild_img">
+                        <div class="Type_wild">
+                            <div class="Type_wild_img">
                                 <img src="../melody_picture/pokemon_ball/hyperball.png">
                             </div>
-                            <p>type wild</p>
+                            <p>Type wild</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="advanced_generation">
                 <div class="advanced_generation_picture">
-                    <div class="pokemon_ranking2_picture">
-                        <img src="../melody_picture/Advanced generation.png">
+                    <div class="pokemon_ranking2_p">
+                        <p>Advanced generation</p>
                     </div>
                     <div class="pokemon_Advanced_generation_somgs">
                         <div class="advanced_adventure">
@@ -121,7 +132,7 @@
                             <div class="challenger_img">
                                 <img src="../melody_picture/pokemon_ball/timerball.png">
                             </div>
-                            <p>challenger</p>
+                            <p>Challenger</p>
                         </div>
                         <div class="battle_frontier">
                             <div class="battle_frontier_img">
@@ -134,8 +145,8 @@
             </div>
             <div class="diamond_pearl">
                 <div class="diamond_pearl_picture">
-                    <div class="pokemon_ranking3_picture">
-                        <img src="../melody_picture/diamond pearl.png">
+                    <div class="pokemon_ranking3_p">
+                        <p>Diamond & Pearl</p>
                     </div>
                     <div class="pokemon_diamond_pearl_songs">
                         <div class="together">
@@ -144,13 +155,19 @@
                             </div>
                             <p>Together</p>
                         </div>
+                        <div class="high_five">
+                            <div class="high_five_img">
+                                <img src="../melody_picture/pokemon_ball/levelball.png">
+                            </div>
+                            <p>High five</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="best_wishes">
                 <div class="best_wishes_picture">
-                    <div class="pokemon_ranking4_picture">
-                        <img src="../melody_picture/best_wishes.png">
+                    <div class="pokemon_ranking4_p">
+                        <p>Best wishes</p>
                     </div>
                     <div class="pokemon_best_wishes_songs">
                         <div class="pokemon_name">
@@ -159,16 +176,22 @@
                             </div>
                             <p>Can You Name BW the Pokémon?</p>
                         </div>
-                        <p>comming soon</p>
+                        <div class="BW_hatena">
+                            <div class="BW_hatena_img">
+                                <img src="../melody_picture/hatenabox.png">
+                            </div>
+                            <p>comming soon</p>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
             <div class="xyz">
-                <div class="xyz_picture">
-                    <div class="pokemon_ranking5_picture">
-                        <img src="../melody_picture/XYZ.png">
+                
+                    <div class="pokemon_ranking5_p">
+                        <p>XY & Z</p>
                     </div>
-                    <div class="pokemon_xyz_songs">
+                    <div class="pokemon_xyz_songs1">
                         <div class="v">
                             <div class="v_img">
                                 <img src="../melody_picture/pokemon_ball/GSball.png">
@@ -187,6 +210,15 @@
                             </div>
                             <p>Dream dream</p>
                         </div>
+                    </div>
+            </div>
+                    <div class="pokemon_xyz_songs2">
+                        <div class="kirakira">
+                            <div class="kirakira_img">
+                                <img src="../melody_picture/pokemon_ball/moonball.png">
+                            </div>
+                            <p>Kirakira</p>
+                        </div>
                         <div class="xyz_song">
                             <div class="xyz_song_img">
                                 <img src="../melody_picture/pokemon_ball/superball.png">
@@ -194,54 +226,69 @@
                             <p>XY&Z</p>
                         </div>
                     </div>
-                </div>
-            </div>
+                
+            
             <div class="sun_moon">
                 <div class="sun_moon_picture">
-                    <div class="pokemon_ranking6_picture">
-                        <img src="../melody_picture/sun_moon.png">
+                    <div class="pokemon_ranking6_p">
+                        <p>sun & moon</p>
                     </div>
                     <div class="pokemon_sun_moon_songs">
+                        <div class="sun_moon_song_img">
+                            <img src="../melody_picture/hatenabox.png">
+                        </div>
                         <p>comming soon</p>
                     </div>
                 </div>
             </div><div class="new_indigo_league">
                 <div class="new_indigo_league_picture">
                     <div class="pokemon_ranking7_picture">
-                        <img src="../melody_picture/New_Indigo_League.png">
+                        <p>New indigo league</p>
                     </div>
                     <div class="pokemon_new_indigo_league_songs">
+                        <div class="new_indigo_league_song_img">
+                            <img src="../melody_picture/hatenabox.png">
+                        </div>
                         <p>comming soon</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="hatena_song">
+        <div class="hatena_songs">
             <div class="hatena_song_img">
                 <img src="../melody_picture/hatenabox.png">
             </div>
             I want to talk about other music that interests me
-        </div>
-
-        <footer>
-            <div class="nav2">
-                <nav>
-                    <ul>
-                        <li class="top"><a href="#"></a>top</a></li>
-                        <li class="pokemon"><a href="#"></a>Pokemon</a></li>
-                        <li class="sweets"><a href="#"></a>Sweets</a></li>
-                        <li class="melody"><a href="#"></a>meloDY</a></li>
-                        <li class="about-me"><a href="#"></a>KazUtarou</a></li>
-                        <li class="contact"><a href="#"></a>Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="footer_logo">
-                <img src="../top_picture/main_logo.png">
-            </div>
-    
-        </footer>
-        
     </main>
+    <footer>
+        <div class="main_logo">
+            <img src="../top_picture/footer_psyduck_logo2.png">
+        </div>
+        <div class="footer2">
+            <div class="nav2">
+                    <ul>
+                        <li class="top"><a href="./index.html">top</a></li>
+                        <li class="pokemon"><a href="./pokemon/index.html">Pokemon</a></li>
+                        <li class="sweets"><a href="./sweets/index.html">Sweets</a></li>
+                        <li class="melody2"><a href="./melody/index.html">meloDY</a><span>></span></li>
+                        <li class="about-me"><a href="./about/index.html">KazUtarou</a></li>
+                        <li class="contact1"><a href="./contact/index.html">Contact</a></li>
+                    </ul>
+            </div>
+            <div class="footer_picture">
+                <img src="../melody_picture/marina-zaharkina-vFmOerWBsy4-unsplash.jpg">
+            </div>
+        </div>
+        <div class="end_footer">
+            <img src="../top_picture/kazutarou_logo.png" width="100px">
+        </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script>
+    $(".burger").click(function(){
+        $(".burger").toggleClass('is_active');
+        $(".menu").toggleClass('is_active');
+    });
+</script>
 </body>
 </html>

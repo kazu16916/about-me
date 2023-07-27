@@ -24,7 +24,7 @@
 }
 .pokemon_nav ul{
     display:flex;
-    margin:70px auto;
+    margin:25px auto;
     width:300px;
 }
 .pokemon_nav li{

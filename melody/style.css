@@ -1,1 +1,325 @@
-c:\Users\kazu1\OneDrive\デスクトップ\web_logo\1top_logo\footer_logo.png
+.melody_top {
+    position:relative;
+}
+.melody_top img {
+    margin:25px 50px;
+}
+.melody_top h2{
+    position:absolute;
+    top:30px;
+    left:75px;
+    font-family: 'Permanent Marker', cursive;
+    font-size:25px;
+}
+.melody_top h3 {
+    position:absolute;
+    top:80px;
+    left:75px;
+    font-family: 'Vollkorn', serif;
+    font-size:20px;
+}
+.melody_nav ul{
+    display:flex;
+    margin:25px auto;
+    width:300px;
+}
+.melody_nav li{
+    list-style:none;
+    padding:0 5px;
+    border-left:solid 1px black;
+    color:black;
+    font-family: 'Caveat', cursive;
+    font-size:25px
+}
+.melody_nav a {
+    text-decoration: none;
+    color:black;
+}
+.melody_nav a:hover{
+    text-decoration: underline;
+}
+.pokemon_songs{
+    border-right:solid 1px black;
+}
+.detective_conan_songs_logo img{
+    width:468px;
+    margin:25px 50px;
+}
+.DC_ranking{
+    margin:0 50px;
+}
+.DC_ranking1 {
+    display:inline-block;
+}
+
+.DC_ranking1_picture img{
+    width:200px;
+    height:270px;
+    margin:20px 40px 0 40px;
+}
+.DC_ranking1 {
+    background-color:white;
+    width:280px;
+    height:320px;
+    margin:15px 20px 30px 0px;
+}
+.DC_ranking p{
+    margin:0 0 10px 0;
+    text-align:center;
+}
+.DC_ranking2 {
+    display:inline-block;
+}
+
+.DC_ranking2_picture img {
+    width:200px;
+    height:270px;
+    margin:20px 40px 0px 40px;
+}
+.DC_ranking2  {
+    background-color:white;
+    width:280px;
+    height:320px;
+    margin:15px 0px 30px 0px;
+}
+.DC_ranking2 p{
+    margin:0 0 10px 0;
+    text-align:center;
+}
+.pokemon_songs_logo img {
+    width:468px;
+    margin:25px 150px;
+}
+.pokemon_indigo_league_songs{
+    display:flex;
+}
+.pokemon_indigo_league {
+    margin:25px 50px;
+}
+.pokemon_ranking1_p p{
+    margin:50px 50px;
+    font-family: 'Corben', cursive;
+}
+.go_for_Pokemon_Master_img img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.go_for_pokemon_master{
+    display:block;
+}
+.go_for_pokemon_master p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.ok_img img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.ok{
+    display:block;
+}
+.ok p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.Type_wild_img img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.Type_wild{
+    display:block;
+}
+.type_wild p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+
+
+.advanced_generation {
+    margin:25px 50px;
+}
+.pokemon_ranking2_p p{
+    margin:50px 50px;
+    font-family: 'Corben', cursive;
+}
+.advanced_adventure_img img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.advanced_adventure{
+    display:inline-block;
+}
+.advanced_adventure p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.challenger_img img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.challenger{
+    display:inline-block;
+}
+.challenger p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.battle_frontier_img img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.battle_frontier{
+    display:inline-block;
+}
+.battle_frontier p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+
+
+.pokemon_ranking3_p {
+    margin:50px 100px;
+    font-family: 'Corben', cursive;
+}
+.pokemon_diamond_pearl_songs {
+    margin:25px 125px;
+}
+
+.together_img img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.together{
+    display:inline-block;
+}
+.together p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.high_five img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.high_five{
+    display:inline-block;
+}
+.high_five p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+
+
+.pokemon_ranking4_p {
+    margin:50px 100px;
+    font-family: 'Corben', cursive;
+}
+.pokemon_best_wishes_songs {
+    margin:25px 125px;
+}
+
+.pokemon_name img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.pokemon_name{
+    display:inline-block;
+}
+.pokemon_name p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.BW_hatena img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.BW_hatena{
+    display:inline-block;
+}
+.BW_hatena p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+
+
+.xyz {
+    margin:25px 50px;
+}
+.pokemon_ranking5_p p{
+    margin:50px 50px;
+    font-family: 'Corben', cursive;
+}
+.v_img img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.v{
+    display:inline-block;
+}
+.v p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.getta_bang_bang img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.getta_bang_bang{
+    display:inline-block;
+}
+.getta_bang_bang p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.dream_dream_img img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.dream_dream{
+    display:inline-block;
+}
+.dream_dream p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+
+.pokemon_xyz_songs2 {
+    margin:25px 125px;
+}
+
+.kirakira_img img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.kirakira{
+    display:inline-block;
+}
+.kirakira p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.xyz_song_img img{
+    height:150px;
+    width:150px;
+    margin:0 25px;
+}
+.xyz_song{
+    display:inline-block;
+}
+.xyz_song p{
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
