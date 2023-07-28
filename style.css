@@ -101,6 +101,7 @@ header a:hover{
     left: 75px;
     font-family: "Arial Black";
     color: white;
+    width:300px;
 }
 .greeting h2 {
     position: absolute;
