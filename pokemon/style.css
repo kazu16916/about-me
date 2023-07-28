@@ -182,7 +182,7 @@ body{
     }
     .go_img h3{
         font-size:20px;
-        width:320px;
+        width:100%;
     }
     .info{
         display:block;
