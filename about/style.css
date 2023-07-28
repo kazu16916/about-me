@@ -85,3 +85,275 @@
     font-family: 'Caveat', cursive;
     font-size:25px;
 }
+.myfavorite_logo img{
+    width:668px;
+    height:auto;
+    margin:0px 50px;
+    margin-top:150px;
+}
+.food_logo img{
+    width:200px;
+    height:200px;
+    margin:0 285px;
+    margin-top:100px;
+}
+.food{
+    margin:0 110px;
+}
+.fried_chicken {
+    display:inline-block;
+}
+.fried_chicken_img img{
+    width:200px;
+    height:270px;
+    margin:10px 25px 0 25px;
+}
+.fried_chicken {
+    background-color:white;
+    width:250px;
+    height:310px;
+    margin:30px 20px 30px 0px;
+}
+.fried_chicken p{
+    margin:0 0 10px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+.chinese_dumpling {
+    display:inline-block;
+}
+.chinese_dumpling_img img {
+    width:200px;
+    height:270px;
+    margin:10px 25px 0px 25px;
+}
+.chinese_dumpling  {
+    background-color:white;
+    width:250px;
+    height:310px;
+    margin:30px 0px 30px 20px;
+}
+.chinese_dumpling p{
+    margin:0 0 10px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+
+
+.color_logo img{
+    width:200px;
+    height:200px;
+    margin:0 285px;
+    margin-top:100px;
+}
+.color{
+    margin:0 110px;
+}
+.green {
+    display:inline-block;
+}
+.green_img img{
+    width:200px;
+    height:270px;
+    margin:10px 25px 0 25px;
+}
+.green {
+    background-color:white;
+    width:250px;
+    height:310px;
+    margin:30px 20px 30px 0px;
+}
+.green p{
+    margin:0 0 10px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+.pink {
+    display:inline-block;
+}
+.pink_img img {
+    width:200px;
+    height:270px;
+    margin:10px 25px 0px 25px;
+}
+.pink  {
+    background-color:white;
+    width:250px;
+    height:310px;
+    margin:30px 0px 30px 20px;
+}
+.pink p{
+    margin:0 0 10px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+
+
+.season_logo img{
+    width:200px;
+    height:200px;
+    margin:0 285px;
+    margin-top:100px;
+}
+.favorite_season{
+    margin:0 110px;
+}
+.summer {
+    display:inline-block;
+}
+.summer_img img{
+    width:200px;
+    height:270px;
+    margin:10px 25px 0 25px;
+}
+.summer {
+    background-color:white;
+    width:250px;
+    height:310px;
+    margin:30px 20px 30px 0px;
+}
+.summer p{
+    margin:0 0 10px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+.autumn {
+    display:inline-block;
+}
+.autumn img {
+    width:200px;
+    height:270px;
+    margin:10px 25px 0px 25px;
+}
+.autumn  {
+    background-color:white;
+    width:250px;
+    height:310px;
+    margin:30px 0px 30px 20px;
+}
+.autumn p{
+    margin:0 0 10px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+
+.animal_logo img{
+    width:200px;
+    height:200px;
+    margin:0px 285px;
+    margin-top:100px;
+}
+.favorite_animal {
+    display:flex;
+}
+.hawk {
+    background-color:white;
+    width:250px;
+    height:360px;
+    margin:30px 5px 30px 50px;
+}
+.hawk p{
+    margin:0 0 1px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+.hawk_img img{
+    width:200px;
+    height:auto;
+    margin: 15px 7.5px;
+}
+.peacock p{
+    margin:0 0 1px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+.peacock {
+    background-color:white;
+    width:250px;
+    height:360px;
+    margin:30px 5px 30px 5px;
+}
+.peacock img{
+    width:200px;
+    height:auto;
+    background-color:black;
+    background-size:300px 300px;
+    margin: 15px 7.5px;
+}
+.condor {
+    background-color:white;
+    width:250px;
+    height:360px;
+    margin:30px 50px 30px 5px;
+}
+.condor p{
+    margin:0 0 1px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+.condor img{
+    width:200px;
+    height:auto;
+    background-color:black;
+    background-size:300px 300px;
+    margin: 15px 7.5px;
+}
+
+
+
+.country img{
+    width:200px;
+    height:200px;
+    margin:0px 285px;
+    margin-top:100px;
+}
+.favorite_country{
+    margin:0 110px;
+}
+.country2 {
+    display:inline-block;
+}
+.country_img img{
+    width:270px;
+    height:200px;
+    margin:10px 25px 0 25px;
+}
+.country2 {
+    background-color:white;
+    width:315px;
+    height:250px;
+    margin:30px 115px;
+}
+.country2 p{
+    margin:0 0 10px 0;
+    text-align:center;
+    font-family: 'Bangers', cursive;
+}
+
+.finally {
+    position: relative;
+    display: inline-block;
+    padding: 0 155px;
+    margin:20px 62px;
+    font-family: 'Cherry Swash', cursive;
+    
+}
+
+.finally:before,
+.finally:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #666;
+}
+
+.finally:before {
+    left: 0;
+}
+
+.finally:after {
+    right: 0;
+}
