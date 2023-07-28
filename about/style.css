@@ -1,1 +1,87 @@
-/* /about だけで使うCSS */
+.start_img img{
+    margin:25px 50px;
+    position:relative;
+}
+.start_message1 h1{
+    position:absolute;
+    top:100px;
+    left:75px;
+    color:white;
+    font-family: 'Bangers', cursive;
+    font-size:30px;
+
+}
+.start_message2 h2{
+    position:absolute;
+    top:150px;
+    left:75px;
+    color:white;
+    font-family: 'Cherry Swash', cursive;
+    font-size:25px;
+}
+
+.start {
+    width:768px;
+}
+.start p{
+    text-align:center;
+    font-family: 'Homemade Apple', cursive;
+}
+.my_info1 {
+    margin:25px 57px;
+}
+.birthday_picture img{
+    width:250px;
+    height:250px;
+}
+.birthday {
+    display:inline-block;
+    margin-right:150px;
+}
+.birthday p {
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    font-size:25px;
+}
+.age_picture img{
+    width:250px;
+    height:250px;
+}
+.age {
+    display:inline-block;
+}
+.age p {
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    font-size:25px;
+}
+
+
+.my_info2 {
+    margin:25px 56px;
+}
+.from_picture img{
+    width:250px;
+    height:250px;
+}
+.from {
+    display:inline-block;
+    margin-right:150px;
+}
+.from p {
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    font-size:25px;
+}
+.live_picture img{
+    width:250px;
+    height:250px;
+}
+.live {
+    display:inline-block;
+}
+.live p {
+    text-align:center;
+    font-family: 'Caveat', cursive;
+    font-size:25px;
+}
