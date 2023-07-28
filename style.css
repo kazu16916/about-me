@@ -1,6 +1,7 @@
 body{
     background-color: #ffffcc;
-    width: 768px;
+    display:inline-block;
+    width:768px;
     height:auto;
 
 }
@@ -274,12 +275,9 @@ footer a:hover{
     margin:auto;
     width:20%;
 }
-body{
-    width:100%;
-}
-@media screen and(max-width: 420px){
+@media(max-width: 420px){
     body{
-        width: 65%;
+        width:320px;
         display:inline-block;
         margin:0 auto;
     }

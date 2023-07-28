@@ -1,6 +1,11 @@
+
+body{
+    display:inline-block;
+}
 .burger{
     margin:10px 0px;
 }
+
 .pokemon_img img{
     width:668px;
     margin:0 50px 0 50px;
@@ -24,8 +29,9 @@
 }
 .pokemon_nav ul{
     display:flex;
-    margin:25px auto;
-    width:300px;
+    width:668px;
+    margin:25px 225px;
+
 }
 .pokemon_nav li{
     list-style:none;
@@ -33,7 +39,8 @@
     border-left:solid 1px black;
     color:black;
     font-family: 'Caveat', cursive;
-    font-size:25px
+    font-size:25px;
+    
 }
 .pokemon_nav a {
     text-decoration: none;
@@ -60,7 +67,7 @@
     left:70px;
     color:white;
     font-family: 'Kaushan Script', cursive;
-    font-size:30px;
+    font-size:10px;
 }
 .information p{
     margin:20px 20px;
@@ -157,5 +164,38 @@
     text-align:center;
     font-family: 'Caveat', cursive;
 }
+
+
+@media(max-width: 450px){
+    .info{
+        display:block;
+        margin:0 100px;
+    }
+    .day_ob {
+        display:inline-block;
+    }
+    .walk_ob {
+        display:inline-block;
+    }
+    .catch_ob {
+        display:inline-block;
+    }
+    .day_ob img{
+        margin:0 0;
+        width:314px;
+        height:314px;
+    }
+    .walk_ob img{
+        margin:0 0;
+        width:314px;
+        height:314px;
+    }
+    .catch_ob img{
+        margin:0 0;
+        width:314px;
+        height:314px;
+    }
+}
+
 
 
