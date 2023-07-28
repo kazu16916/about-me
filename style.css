@@ -277,9 +277,11 @@ footer a:hover{
 body{
     width:100%;
 }
-@media screen(max-width: 420px){
+@media screen and(max-width: 420px){
     body{
         width: 65%;
+        display:inline-block;
+        margin:0 auto;
     }
 }
 
