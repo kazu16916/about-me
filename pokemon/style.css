@@ -1,5 +1,6 @@
 
 body{
+    width:668px;
     display:inline-block;
 }
 .burger{
@@ -29,7 +30,7 @@ body{
 }
 .pokemon_nav ul{
     display:flex;
-    width:668px;
+    width:400px;
     margin:25px 225px;
 
 }
@@ -167,9 +168,15 @@ body{
 
 
 @media(max-width: 450px){
+    body{
+        width:370px;
+        display:inline-block;
+        margin:0 auto;
+    }
     .info{
         display:block;
         margin:0 100px;
+        margin-top:100px;
     }
     .day_ob {
         display:inline-block;
@@ -180,18 +187,77 @@ body{
     .catch_ob {
         display:inline-block;
     }
+    .day_ob p{
+        font-size:30px;
+    }
+    .walk_ob p{
+        font-size:30px;
+    }
+    .catch_ob p{
+        font-size:30px;
+    }
     .day_ob img{
-        margin:0 0;
+        margin:0 125px;
         width:314px;
         height:314px;
     }
     .walk_ob img{
-        margin:0 0;
+        margin:0 125px;
         width:314px;
         height:314px;
     }
     .catch_ob img{
-        margin:0 0;
+        margin:0 125px;
+        width:314px;
+        height:314px;
+    }
+
+
+    .anime_info{
+        display:block;
+        margin:0 100px;
+        margin-top:100px;
+    }
+    .region_ob {
+        display:inline-block;
+    }
+    .character_ob {
+        display:inline-block;
+    }
+    .my_favorite_pokemon_ob {
+        display:inline-block;
+    }
+    .region_ex p{
+        width:320px;
+    }
+    .character_ex p{
+        width:320px;
+    }
+    .my_favorite_pokemon_ex p{
+        width:320px;
+    }
+    .region p{
+        font-size:25px;
+    }
+    .character p{
+        font-size:25px;
+    }
+    .my_favorite_pokemon p{
+        font-size:25px;
+    }
+
+    .region_ob img{
+        margin:10px 125px;
+        width:314px;
+        height:314px;
+    }
+    .character_ob img{
+        margin:10px 125px;
+        width:314px;
+        height:314px;
+    }
+    .my_favorite_pokemon_ob img{
+        margin:10px 125px;
         width:314px;
         height:314px;
     }
