@@ -184,7 +184,9 @@ header a:hover{
     font-family: 'DM Serif Display', serif
 }
 
-
+.main_fin{
+    display:inline-block;
+}
 .main_fin_img img{
     width:668px;
     margin:25px 50px;
@@ -208,6 +210,7 @@ header a:hover{
 footer {
     background-color:#E2ADB3;
     margin:0 50px;
+    width:668px;
 }
 .footer2 {
     display:flex;
@@ -271,7 +274,14 @@ footer a:hover{
     margin:auto;
     width:20%;
 }
-
+body{
+    width:100%;
+}
+@media (max-width: 414px){
+    body{
+        width: 50%;
+    }
+}
 
 
 
