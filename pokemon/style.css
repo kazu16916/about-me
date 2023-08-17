@@ -183,8 +183,9 @@ body{
     .go_img_h{
         width:300px;
     }
-    .go_img h3{
-        font-size:20px;
+    .go_img_h h3{
+        font-size:18px;
+        margin:25px 0 0 0;
 
     }
     .info{
