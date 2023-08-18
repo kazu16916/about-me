@@ -220,6 +220,124 @@ body{
         width:370px;
     }
     .sweets_ex p{
-        margin:40px 230px;
+        margin:50px 230px;
+    }
+    .favorite{
+        display:block;
+        margin:0 100px 100px 100px;
+        margin-top:100px;
+    }
+    .fresh_cream {
+        display:inline-block;
+        height:550px;
+        width:464px;
+    }
+    .peach {
+        display:inline-block;
+        height:550px;
+        width:464px;
+        margin-left:50px;
+    }
+    .cheese {
+        display:inline-block;
+        height:550px;
+        width:464px;
+        margin-left:50px;
+    }
+    .fresh_cream p{
+        font-size:30px;
+    }
+    .peach p{
+        font-size:30px;
+    }
+    .cheese p{
+        font-size:30px;
+    }
+    .fresh_cream img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+    .peach img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+    .cheese img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+    .sweets_buffet_message h2{
+        width:400px;
+    }
+    .sweets_buffet_message h3{
+        width:450px;
+    }
+    .want_message p{
+        width:400px;
+        margin:25px 210px;
+        font-size:25px;
+    }
+    .want{
+        display:block;
+        margin:0 100px 100px 100px;
+        margin-top:100px;
+    }
+    .cakes {
+        display:inline-block;
+        height:650px;
+        width:464px;
+        margin:0 50px 10px 50px;
+    }
+    .donuts {
+        display:inline-block;
+        height:650px;
+        width:464px;
+        margin:10px 50px 10px 50px;
+    }
+    .Macarons {
+        display:inline-block;
+        height:650px;
+        width:464px;
+        margin:10px 50px 0 50px;
+    }
+    .cakes p{
+        font-size:30px;
+    }
+    .donuts p{
+        font-size:30px;
+    }
+    .Macarons p{
+        font-size:30px;
+    }
+    .cakes img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+    .donuts img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+    .Macarons img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+    .sweets_buffet_invite_message{
+        margin:0px 175px 50px 175px;
+        width:400px;
+    }
+    .invite{
+        width:400px;
+        margin:0 175px;
     }
 }

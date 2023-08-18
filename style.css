@@ -174,13 +174,15 @@ header a:hover{
 .motto_title h2{
     color:white;
     position:absolute;
-    top: 300px;
+    top: 250px;
     left: 75px;
     font-family: 'Corben', cursive;
+    font-size:40px;
 }
 .motto_title2 h3{
     color:white;
     position:absolute;
+    width:400px;
     top: 350px;
     left: 75px;
     font-family: 'DM Serif Display', serif
