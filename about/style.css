@@ -357,3 +357,289 @@
 .finally:after {
     right: 0;
 }
+
+@media  screen and (max-width: 480px){
+    .start_img img{
+        width:668px;
+        height:auto;
+    }
+    .start_message1 h1{
+        width:500px;
+        font-size:40px;
+    }
+    .start_message2 h2{
+        width:500px;
+        font-size:25px;
+        top:150px;
+    }
+    .start p{
+        font-size:20px;
+    }
+    .my_info {
+        display:block;
+        margin:0 55px;
+        margin-top:100px;
+    }
+    .birthday {
+        display:inline-block;
+        margin:0 50px;
+    }
+    .age {
+        display:inline-block;
+        margin:0 50px;
+    }
+    .from {
+        display:inline-block;
+        margin:0 50px;
+    }
+    .live {
+        display:inline-block;
+        margin:0 50px;
+    }
+    .birthday p{
+        font-size:50px;
+        margin:0 0 70px 0;
+    }
+    .age p{
+        font-size:50px;
+        margin:0 0 70px 0;
+    }
+    .from p{
+        font-size:50px;
+        margin:0 0 70px 0;
+    }
+    .live p{
+        font-size:50px;
+        margin:0 0px;
+    }
+    
+    .birthday img{
+        margin:0 70px;
+        width:314px;
+        height:314px;
+    }
+    .age img{
+        margin:0 70px;
+        width:314px;
+        height:314px;
+    }
+    .from img{
+        margin:0 70px;
+        width:314px;
+        height:314px;
+    }
+    .live img{
+        margin:0 70px;
+        width:314px;
+        height:314px;
+    }
+    .food_logo img{
+        width:314px;
+        height:314px;
+        margin:30px 230px 15px 230px;
+    }
+    .favorite_food{
+        display:block;
+        margin:0 100px 50px 45px;
+        margin-top:30px;
+    }
+    .fried_chicken {
+        display:inline-block;
+        height:700px;
+        width:464px;
+        margin:10px 0px;
+    }
+    .chinese_dumpling {
+        display:inline-block;
+        height:700px;
+        width:464px;
+        margin:10px 0;
+    }
+    
+    .fried_chicken p{
+        font-size:30px;
+    }
+    .chinese_dumpling p{
+        font-size:30px;
+    }
+    .fried_chicken img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+    .chinese_dumpling img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+
+    .color_logo img{
+        width:314px;
+        height:314px;
+        margin:30px 230px 15px 230px;
+    }
+    .favorite_color{
+        display:block;
+        margin:0 100px 50px 45px;
+        margin-top:30px;
+    }
+    .green {
+        display:inline-block;
+        height:700px;
+        width:464px;
+        margin:10px 0px;
+    }
+    .pink {
+        display:inline-block;
+        height:700px;
+        width:464px;
+        margin:10px 0;
+    }
+    
+    .green p{
+        font-size:30px;
+    }
+    .pink p{
+        font-size:30px;
+    }
+    .green img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+    .pink img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+
+    .season_logo img{
+        width:314px;
+        height:314px;
+        margin:30px 230px 15px 230px;
+    }
+    .favorite_season{
+        display:block;
+        margin:0 157px 50px 157px;
+        margin-top:30px;
+    }
+    .summer {
+        display:inline-block;
+        height:700px;
+        width:464px;
+        margin:10px 0px;
+    }
+    .autumn {
+        display:inline-block;
+        height:700px;
+        width:464px;
+        margin:10px 0;
+    }
+    
+    .summer p{
+        font-size:30px;
+    }
+    .autumnvvv p{
+        font-size:30px;
+    }
+    .summer img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+    .autumn img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+    .animal_logo img{
+        width:314px;
+        height:314px;
+        margin:30px 230px 15px 230px;
+    }
+    .favorite_animal{
+        display:block;
+        margin:0 110px 100px 110px;
+        margin-top:30px;
+    }
+    .hawk {
+        display:inline-block;
+        height:700px;
+        width:464px;
+    }
+    .peacock {
+        display:inline-block;
+        height:700px;
+        width:464px;
+        margin-left:50px;
+    }
+    .condor {
+        display:inline-block;
+        height:700px;
+        width:464px;
+        margin-left:50px;
+    }
+    .hawk p{
+        font-size:30px;
+    }
+    .peacock p{
+        font-size:30px;
+    }
+    .condor p{
+        font-size:30px;
+    }
+    .hawk img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+    .peacock img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+    .condor img{
+        margin:0 25px;
+        margin-top:25px;
+        width:414px;
+        height:auto;
+    }
+
+    .country_logo img{
+        width:314px;
+        height:314px;
+        margin:30px 230px 15px 230px;
+    }
+
+    .favorite_country{
+        margin:0 0px;
+    }
+    .country_img img{
+        width:500px;
+        height:auto;
+        margin:25px 25px 0 25px;
+    }
+    .country2 {
+        background-color:white;
+        width:550px;
+        height:400px;
+        margin:30px 115px;
+    }
+    .favorite_country p{
+        font-size:30px;
+    }
+    
+    .finally{
+        width:340px;
+        margin: 50px 0px 50px 60px;
+    }
+
+}
