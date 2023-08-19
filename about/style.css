@@ -358,7 +358,7 @@
     right: 0;
 }
 
-@media  screen and (max-width: 480px){
+@media(max-width: 480px){
     .start_img img{
         width:668px;
         height:auto;
