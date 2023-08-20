@@ -50,10 +50,10 @@ body{
 .pokemon_nav a:hover{
     text-decoration: underline;
 }
-
-.melody{
+.melody3{
     border-right:solid 1px black;
 }
+
 .go_logo img{
     margin:50px 150px;
 }
@@ -283,6 +283,14 @@ body{
         margin:10px 125px;
         width:314px;
         height:314px;
+    }
+}
+
+
+@media(max-width: 960px){
+    main {
+        width:860px;
+        margin:0 75px;
     }
 }
 

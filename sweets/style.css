@@ -3,21 +3,26 @@ body{
 }
 .sweets_start {
     position:relative;
+    width:668px;
 }
 .sweets_main_picture {
+    width:668px;
     margin:0px 50px;
+}
+.sweets_main_picture img{
+    width:668px;
 }
 .sweets_title h2{
     position:absolute;
     bottom:50px;
-    right:75px;
+    right:0px;
     color:white;
     font-family: 'Anton', sans-serif;
 }
 .sweets_title2 h3{
     position:absolute;
     bottom:20px;
-    right:75px;
+    right:0px;
     color:white;
     font-family: 'Cherry Swash', cursive;
 }
@@ -28,11 +33,12 @@ body{
 }
 .favorite {
     display:flex;
+    width:668px;
 }
 .fresh_cream {
     background-color:white;
-    width:250px;
-    height:295px;
+    width:235px;
+    height:280px;
     margin:30px 5px 30px 50px;
 }
 .fresh_cream p{
@@ -41,9 +47,9 @@ body{
     font-family: 'Bangers', cursive;
 }
 .fresh_cream_img img{
-    width:200px;
+    width:185px;
     height:auto;
-    margin: 15px 7.5px;
+    margin: 15px 15px;
 }
 .peach p{
     margin:0 0 1px 0;
@@ -52,21 +58,21 @@ body{
 }
 .peach {
     background-color:white;
-    width:250px;
-    height:295px;
+    width:235px;
+    height:280px;
     margin:30px 5px 30px 5px;
 }
 .peach img{
-    width:200px;
+    width:185px;
     height:auto;
     background-color:black;
     background-size:300px 300px;
-    margin: 15px 7.5px;
+    margin: 15px 15px;
 }
 .cheese {
     background-color:white;
-    width:250px;
-    height:295px;
+    width:235px;
+    height:280px;
     margin:30px 50px 30px 5px;
 }
 .cheese p{
@@ -75,11 +81,11 @@ body{
     font-family: 'Bangers', cursive;
 }
 .cheese img{
-    width:200px;
+    width:185px;
     height:auto;
     background-color:black;
     background-size:300px 300px;
-    margin: 15px 7.5px;
+    margin: 15px 15px;
 }
 .snacks_logo img{
     width:468px;
@@ -340,4 +346,25 @@ body{
         width:400px;
         margin:0 175px;
     }
+
+}
+@media(max-width: 960px){
+    body{
+        width:810px;
+    }
+    .main{
+        width:760px;
+    }
+    .want{
+        margin:0 0 0 50px;
+    }
+    .want_message p{
+        width:500px;
+        font-size:30px;
+        margin:0 160px;
+    }
+    footer{
+       
+    }
+    
 }
