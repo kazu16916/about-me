@@ -158,6 +158,9 @@ header a:hover{
     display:inline-block;
     margin:50px 200px;
 }
+.kazutarou_photo img{
+    margin:0 30px;
+}
 .kazutarou_page p {
     text-align:center;
     font-family: 'Caveat', cursive;
@@ -193,7 +196,7 @@ header a:hover{
 }
 .main_fin_img img{
     width:668px;
-    margin:25px 50px;
+    margin:25px 0px 25px 50px;
 }
 .main_fin_message {
     position: relative;
@@ -283,6 +286,140 @@ footer a:hover{
         width:320px;
         display:inline-block;
         margin:0 auto;
+    }
+}
+
+@media(max-width: 960px){
+    body{
+        width:810px;
+        height:auto;
+        display:inline-block;
+        margin:0 0;
+    }
+    header{
+        height:100px;
+    }
+    header img{
+        margin:15px 0;
+    }
+    .burger{
+        display:none;
+        
+    }
+    .nav1{
+        margin:0 0;
+    }
+    .nav1 ul{
+        display:flex;
+        padding:10px 0px 0 50px;
+    }
+    .nav1 li{
+        font-size:25px;
+        font-family: 'Bangers', cursive;
+    }
+    .top_background img{
+        width:810px;
+        height:auto;
+    }
+    .greeting h1{
+        font-size:40px;
+        width:500px
+    }
+    .greeting h2{
+        font-size:35px;
+        width:500px
+    }
+    .top_start{
+        width:500px;
+        margin:0 0;
+    }
+    .top_start p{
+        font-size:30px;
+        width:500px;
+        margin:0 0;
+    }
+    .page {
+        width:700px;
+        margin:0 160px;
+        
+    }
+    .page img{
+        width:268px;
+    }
+
+    .page1{
+        display:inline-block;
+    }
+    
+    .pokemon_page{
+        margin:0 0;
+    }
+    .pokemon_page img{
+        margin:0 0 0 30px;
+    }
+    .sweets_page{
+        margin:0 0;
+    }
+    .sweets_page img{
+        margin:0 0 0 30px;
+    }
+    .page2{
+        display:inline-block;
+    }
+    .melody_page{
+        margin:0 0;
+    }
+    .melody_photo{
+        width:0px;
+        height:0px;
+    }
+    .melody_page img{
+        margin:0 30px;
+    }
+    .kazutarou_page{
+        margin:0 0;
+    }
+    .kazutarou_photo img{
+        width:100px;
+        height:100px;
+    }
+    .kazutarou_page p{
+        margin:120px 0 45px 0;
+    }
+    .peace_photo img{
+        width:810px;
+    }
+    .motto_title h2{
+        font-size:50px;
+    }
+    .motto_title2 h3{
+        font-size:25px;
+    }
+    .main_fin_message {
+        width:700px;
+    }
+    .main_fin_message h2{
+        font-size:43px;
+        width:700px;
+        margin: 0 100px;
+    }
+    .main_fin_message::before{
+        width:200px;
+        margin:0 100px;
+    }
+    .main_fin_img img{
+        width:810px;
+        margin:50px;
+    }
+    footer {
+        margin:0 115px;
+    }
+}
+
+
+@media(min-width: 960px){
+    body{
+        width:960px;
     }
 }
 
