@@ -294,7 +294,7 @@ footer a:hover{
         width:810px;
         height:auto;
         display:inline-block;
-        margin:0 0;
+        margin:0 25px;
     }
     main{
         margin:0 50px;
@@ -305,9 +305,9 @@ footer a:hover{
     }
     .nav1 ul{
         display:flex;
-        width:300px;
-        text-align:right;
-        margin-right:25px;
+        width:0px;
+        
+        
     }
     .nav1 li{
         font-size:25px;

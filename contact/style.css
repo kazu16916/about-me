@@ -4,7 +4,7 @@
 }
 .Form {
     margin-top: 80px;
-    margin-left: auto;
+    margin-left: 25px;
     margin-right: auto;
     max-width: 720px;
 }
@@ -16,6 +16,22 @@
     .body{
         background-size:900px;
     }
+}
+@media screen and (max-width: 960px) {
+    
+    .nav1 {
+        width:600px;
+        margin:0 50px 0 0;
+    }
+    .nav1 ul{
+        margin-left:50px;
+    }
+    main {
+        width:668px;
+        margin:0 50px;
+        padding:0 25px;
+    }
+    
 }
 .Form-Item {
 
@@ -146,6 +162,12 @@
 }
 .button {
     margin-bottom:100px;
+}
+@media screen and (max-width: 960px) {
+    footer{
+        width:668px;
+        margin:0 0;
+    }
 }
 span{
     color:red;

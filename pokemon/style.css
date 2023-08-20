@@ -288,9 +288,40 @@ body{
 
 
 @media(max-width: 960px){
+    body {
+        margin:0 0;
+    }
     main {
-        width:860px;
-        margin:0 75px;
+        width:700px;
+        margin:0 50px;
+    }
+    .pokemon_img{
+        width:700px;
+        
+    }
+    .pokemon_img img{
+        margin-right:0px;
+
+    }
+    .pokemon_start{
+        width:700px;
+    }
+    .go_img{
+        width:700px;
+        margin:0 0 0 50px;
+    }
+    .pokemon_nav ul{
+        margin:25px 0 25px 225px;
+    }
+    .anime_logo img{
+        margin:50px 0 50px 150px;
+    }
+    .go_img img{
+
+        margin:0 0 0 0;
+    }
+    .anime_img img{
+        margin:0 0 0 0;
     }
 }
 
