@@ -66,7 +66,7 @@
 .DC_ranking p{
     margin:0 0 10px 0;
     text-align:center;
-    font-family: 'Bangers', cursive;
+    font-family: 'Caveat', cursive;
 
 }
 .DC_ranking2 {
@@ -87,7 +87,7 @@
 .DC_ranking2 p{
     margin:0 0 10px 0;
     text-align:center;
-    font-family: 'Bangers', cursive;
+    font-family: 'Caveat', cursive;
 }
 .pokemon_songs_logo img {
     width:468px;
@@ -739,8 +739,35 @@ margin:25px 50px;
     }
     .DC_ranking {
         width:800px;
-        margin:0 125px;
+        margin:0 40px;
+
     }
+    .DC_ranking1{
+        width:350px;
+        height:480px;
+    }
+    .DC_ranking1_picture img{
+        margin:20px 50px 40px 50px;
+        width:250px;
+        height:350px;
+    }
+    .ranking1_title p{
+        font-size:35px;
+    }
+
+    .DC_ranking2{
+        width:350px;
+        height:480px;
+    }
+    .DC_ranking2_picture img{
+        margin:20px 50px 0 50px;
+        width:250px;
+        height:350px;
+    }
+    .ranking2_title p{
+        font-size:35px;
+    }
+
     .pokemon_songs_logo img{
         margin:0 190px;
     }
@@ -750,6 +777,7 @@ margin:25px 50px;
     }
     .pokemon_ranking1_p p{
         margin:50px 0px;
+        font-size:30px;
     }
     .go_for_Pokemon_Master_img img{
         margin:0 50px;
@@ -771,15 +799,160 @@ margin:25px 50px;
     }
     .pokemon_Advanced_generation_songs{
         width:800px;
+        margin:10px 50px;
+    }
+    .pokemon_ranking2_p p{
+        margin:50px 50px;
+        font-size:30px;
+    }
+    .advanced_adventure_img img{
         margin:0 50px;
+    }
+    .advanced_adventure p{
+        font-size:35px;
+    }
+    .challenger_img img{
+        margin:0 55px;
+    }
+    .challenger p{
+        font-size:35px;
+    }
+    .battle_frontier_img img{
+        margin:0 55px;
+    }
+    .battle_frontier p{
+        font-size:35px;
     }
     .pokemon_diamond_pearl_songs{
         width:600px;
-        margin:0 200px;
+        margin:0 150px;
+    }
+    .pokemon_ranking3_p p{
+        margin:50px 0px;
+        font-size:30px;
+    }
+    .together_img img{
+        margin:0 55px;
+    }
+    .together p{
+        font-size:35px;
+    }
+    .high_five_img img{
+        margin:0 55px;
+    }
+    .high_five p{
+        font-size:35px;
     }
     .pokemon_best_wishes_songs{
         width:600px;
         margin:0 200px;
+    }
+    .pokemon_ranking4_p p{
+        margin:50px 5px;
+        font-size:30px;
+    }
+    .yazirusi{
+        margin:0 55px 0 0;
+    }
+    .yazirusi_img img{
+        margin:0 0px 40px 0;
+    }
+    .yazirusi p{
+        font-size:35px;
+        
+    }
+    
+    .pokemon_name_img img{
+        margin:0 55px;
+    }
+    .pokemon_name p{
+        width:240px!important;
+        font-size:35px;
+        
+    }
+    .xyz{
+        width:700px;
+        margin:0 0!important;
+    }
+
+    .pokemon_xyz_songs1{
+        width:800px;
+        margin:10px 50px;
+    }
+    .pokemon_ranking5_p p{
+        margin:50px 50px;
+        font-size:30px;
+        font-size:30px;
+    }
+    .v_img img{
+        margin:0 50px;
+    }
+    .v p{
+        font-size:35px;
+    }
+    .getta_bang_bang_img img{
+        margin:0 55px;
+    }
+    .getta_bang_bang p{
+        font-size:35px;
+    }
+    .dream_dream_img img{
+        margin:0 55px;
+    }
+    .dream_dream p{
+        font-size:35px;
+    }
+    .pokemon_xyz_songs2{
+        width:600px;
+        margin:0 150px!important;
+    }
+    .kirakira_img img{
+        margin:0 60px;
+    }
+    .kirakira p{
+        font-size:35px;
+    }
+    .xyz_song_img img{
+        margin:0 60px;
+    }
+    .xyz_song p{
+        font-size:35px;
+    }
+    .sun_moon {
+        margin:25px 50px;
+    }
+    .pokemon_ranking6_p p{
+        margin:0 60px;
+        font-size:30px;
+    }
+    .sun_moon_song_img img{
+        width:200px;
+        height:200px;
+        margin:50px 275px 0 275px;
+    }
+    .pokemon_sun_moon_songs p{
+        font-size:35px;
+        margin:0 25px;
+    }
+
+    .new_indigo_league {
+        margin:25px 50px;
+    }
+    .pokemon_ranking7_p p{
+        margin:0 60px;
+        font-size:30px;
+    }
+    .new_indigo_league_song_img img{
+        width:200px;
+        height:200px;
+        margin:50px 275px 0 275px;
+    }
+    .pokemon_new_indigo_league_song p{
+        font-size:35px;
+        margin:0 25px;
+    }
+    footer{
+        margin:auto 125px!important;
     }
 
 }
