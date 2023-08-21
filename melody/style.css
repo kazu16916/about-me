@@ -142,7 +142,7 @@
 
 
 .advanced_generation {
-    margin:25px 50px;
+    margin:25px 0px;
 }
 .pokemon_ranking2_p p{
     margin:50px 50px;
@@ -717,5 +717,69 @@ margin:25px 50px;
         font-size:50px;
     }
     
+}
+@media(min-width: 420px){
+    .melody_picture img{
+        margin:0 75px;
+    }
+    .melody_top h2{
+        left:100px;
+    }
+    .melody_top h3{
+        left:100px;
+    }
+    .melody_nav ul{
+        margin:25px 210px;
+    }
+    .melody_nav li{
+        font-size:32px;
+    }
+    .detective_conan_songs_logo img{
+        margin:0 185px;
+    }
+    .DC_ranking {
+        width:800px;
+        margin:0 125px;
+    }
+    .pokemon_songs_logo img{
+        margin:0 190px;
+    }
+    .pokemon_indigo_league_songs{
+        width:800px;
+        margin:10px 0px
+    }
+    .pokemon_ranking1_p p{
+        margin:50px 0px;
+    }
+    .go_for_Pokemon_Master_img img{
+        margin:0 50px;
+    }
+    .go_for_pokemon_master p{
+        font-size:35px;
+    }
+    .ok_img img{
+        margin:0 50px;
+    }
+    .ok p{
+        font-size:35px;
+    }
+    .Type_wild_img img{
+        margin:0 50px;
+    }
+    .Type_wild p{
+        font-size:35px;
+    }
+    .pokemon_Advanced_generation_songs{
+        width:800px;
+        margin:0 50px;
+    }
+    .pokemon_diamond_pearl_songs{
+        width:600px;
+        margin:0 200px;
+    }
+    .pokemon_best_wishes_songs{
+        width:600px;
+        margin:0 200px;
+    }
 
 }
