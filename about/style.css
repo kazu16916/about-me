@@ -641,5 +641,164 @@
         width:340px;
         margin: 50px 0px 50px 60px;
     }
-
 }
+
+@media(min-width: 420px){
+    .start_img{
+        margin:0 25px;
+    }
+    .start_message1 h1{
+        left:175px;
+        width:500px;
+        font-size:50px;
+    }
+    .start_message2 h2{
+        left:175px;
+        width:500px;
+        font-size:30px;
+    }
+    .start p{
+        font-size:25px;
+        width:600px;
+        margin:0 100px!important;
+    }
+    .my_info1 {
+        width:700px;
+        display:inline-block;
+        margin:75px;
+        
+    }
+    .my_info p{
+        font-size:40px;
+    }
+    .my_info2{
+        width:700px;
+        display:inline-block;
+        margin:75px;
+    }
+    .myfavorite_logo img{
+        margin:0 70px;
+    }
+    .food_logo img{
+        width:300px;
+        height:300px;
+        margin:25px 250px 0 250px;
+    }
+    .favorite_food {
+        width:750px;
+        display:inline-block;
+    }
+    .food {
+        margin:0 30px!important;
+    }
+    .food p{
+        font-size:25px;
+    }
+    .fried_chicken{
+        width:350px;
+        height:440px;
+    }
+    .fried_chicken img{
+        width:300px;
+        height:390px;
+    }
+    .chinese_dumpling{
+        width:350px;
+        height:440px;
+    }
+    .chinese_dumpling img{
+        width:300px;
+        height:390px;
+    }
+
+    .color_logo img{
+        width:300px;
+        height:300px;
+        margin:25px 250px 0 250px;
+    }
+    .favorite_color {
+        width:750px;
+        display:inline-block;
+    }
+    .color {
+        margin:0 30px;
+    }
+    .color p{
+        font-size:25px;
+    }
+    .green{
+        width:350px;
+        height:440px;
+    }
+    .green img{
+        width:300px;
+        height:390px;
+    }
+    .pink{
+        width:350px;
+        height:440px;
+    }
+    .pink img{
+        width:300px;
+        height:390px;
+    }
+    
+
+    .season_logo img{
+        width:300px;
+        height:300px;
+        margin:25px 225px 0 225px;
+    }
+    .favorite_season {
+        width:750px;
+        display:inline-block;
+        margin:0 0;
+    }
+    .season{
+        margin:0 25px;
+    }
+    .season p{
+        font-size:25px;
+    }
+    .summer{
+        width:350px;
+        height:440px;
+    }
+    .summer img{
+        width:300px;
+        height:390px;
+    }
+    .autumn{
+        width:350px;
+        height:440px;
+    }
+    .autumn img{
+        width:300px;
+        height:390px;
+    }
+    .animal_logo img{
+        width:300px;
+        height:300px;
+        margin:25px 250px 0 250px;
+    }
+    .favorite_animal{
+        width:750px;
+    }
+    .favorite_animal p{
+        font-size:25px;
+    }
+    .hawk {
+        width:300px!important;
+        height:370px;
+    }
+    .peacock{
+        width:300px;
+        height:370px;
+        margin:25px;
+    }
+    .condor{
+        width:300px;
+        height:370px;
+    }
+}
+
