@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "self-font";
+    src: url("./fonts/Anja\ Eliane\ accent002.ttf") format("truetype");
+}
+
 body{
     background-color: #ffffcc;
     display:inline-block;
@@ -21,7 +26,7 @@ header img{
 .nav1 {
     margin:0 0 0 auto;
     align-items:center;
-    width:400px;
+    width:550px;
 }
 .nav1 ul{
     display:flex;
@@ -311,7 +316,7 @@ footer a:hover{
     }
     .nav1 li{
         font-size:25px;
-        font-family: 'Bangers', cursive;
+        font-family: 'self-font';
     }
     
     .top_start{
@@ -319,8 +324,9 @@ footer a:hover{
 
     }
     .top_start p{
-        font-size:30px;
-        width:500px;
+        font-size:20px;
+        width:600px;
+        margin-left:0px!important;
     }
     .page {
         width:700px;
@@ -407,6 +413,122 @@ footer a:hover{
     body{
         width:960px;
     }
+    header img{
+        width:400px;
+        height:auto;
+        margin:auto 25px;
+    }
+    .nav1 ul{
+        margin:30px 50px;
+    }
+    .nav1 li{
+        font-size:35px;
+    }
+    .top_background img{
+        margin:75px 100px;
+        width:1175px;
+        height:auto;
+        
+    }
+    .greeting h1{
+        width:600px;
+        top:375px;
+        left:200px;
+        font-size:50px;
+    }
+    .greeting h2{
+        width:600px;
+        top:450px;
+        left:200px;
+        font-size:40px;
+    }
+    .top_start p{
+        width:700px;
+        font-size:40px;
+        margin:0 150px!important;
+    }
+    .page {
+        width:1230px;
+        display:inline-block;
+    }
+    .pokemon_photo img{
+        margin-bottom:25px!important;
+    }
+    .pokemon_page p{
+        margin-top:45px;
+    }
+    .sweets_page p{
+        margin-top:40px;
+    }
+    .peace_photo img{
+        margin:0 100px;
+        width:1175px!important;
+        height:auto;
+    }
+    .motto_title h2 {
+        top:500px;
+        left:125px;
+        font-size:60px;
+    }
+    .motto_title2 h3{
+        width:800px;
+        top:625px;
+        left:125px;
+        font-size:35px;
+    }
+    .main_fin_img img{
+        margin:0 120px;
+        width:1175px;
+        height:auto;
+    }
+    .main_fin_message{
+        width:900px;
+        margin:100px 125px 50px 125px;
+    }
+    .main_fin_message h2{
+        width:900px;
+    }
+    footer{
+        margin:0 130px;
+        width:1175px;
+        height:auto;
+    }
+    .main_logo img{
+        width:400px;
+        height:auto;
+    }
+    .footer2 li{
+        font-size:25px;
+        width:500px;
+    }
+    .footer2{
+        height:400px;
+        margin:0 75px;
+    }
+    
+    .footer_picture img{
+        width:375px;
+        left:600px;
+    }
+    .top span{
+        padding-left:430px;
+    }
+    .pokemon span{
+        padding-left:357px;
+    }
+    .sweets span{
+        padding-left:380px;
+    }
+    .melody2 span{
+        padding-left:372px;
+    }
+    .about_me span{
+        padding-left:339px;
+    }
+    .contact2 span{
+        padding-left:371px;
+    }
+    
 }
 
 
