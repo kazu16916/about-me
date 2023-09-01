@@ -167,7 +167,8 @@ body{
 }
 
 
-@media  screen and (max-width: 480px){
+@media  (max-width: 480px){
+    
     .pokemon_title1 h1{
         width:400px;
         font-size:30px;
@@ -286,42 +287,156 @@ body{
     }
 }
 
-
-@media(max-width: 960px){
-    body {
-        margin:0 0;
+@media(min-width: 481px){
+    body{
+        width:500px;
     }
-    main {
-        width:700px;
-        margin:0 50px;
+    .nav1 ul{
+        margin:15px 0px
     }
-    .pokemon_img{
+    .pokemon_title2 h2{
         width:700px;
-        
+        font-size:20px;
     }
     .pokemon_img img{
-        margin-right:0px;
-
-    }
-    .pokemon_start{
-        width:700px;
-    }
-    .go_img{
-        width:700px;
-        margin:0 0 0 50px;
+        margin:0 25px!important;
     }
     .pokemon_nav ul{
-        margin:25px 0 25px 225px;
+        margin:25px 200px;
     }
-    .anime_logo img{
-        margin:50px 0 50px 150px;
+    .go_logo img{
+        margin:0 140px;
+    }
+    .go_img_h h3{
+        left:50px;
+    }
+    .go_img{
+        margin:0 0;
     }
     .go_img img{
-
-        margin:0 0 0 0;
+        margin:0 25px
+    }
+    .info {
+        margin:0 30px;
+    }
+    .anime_logo img{
+        margin:0 120px;
+    }
+    .anime_img{
+        margin:0 0;
     }
     .anime_img img{
-        margin:0 0 0 0;
+        margin:0 25px!important;
+    }
+    .anime_info{
+        margin:0 25px;
+    }
+    .region_ob p{
+        font-size:25px;
+    }
+    .satoshi_img p{
+        font-size:25px;
+    }
+    .psyduck_img p{
+        font-size:25px;
+    }
+    footer{
+        margin:0 70px;
+    }
+}
+@media(min-width: 960px){
+    .nav1 ul{
+        margin:30px 50px!important;
+    }
+    .pokemon_img img{
+        width:1175px;
+        height:auto;
+        margin-top:50px!important;
+    }
+    .pokemon_title1{
+        width:800px;
+        top:250px;
+        font-size:30px;
+    }
+    .pokemon_title2{
+        width:800px;
+        top:350px;
+    }
+    .pokemon_title2 h2{
+        font-size:30px;
+    }
+    .pokemon_nav ul{
+        margin:25px 370px!important;
+    }
+    .pokemon_nav li{
+        font-size:40px;
+    }
+    .go_logo img{
+        width:500px;
+        height:auto;
+        margin:25px 350px;
+    }
+    .go_img img{
+        width:1175px;
+        height:auto
+    }
+    .go_img_h h3{
+        width:900px;
+        font-size:50px;
+    }
+    .info img{
+        width:300px;
+        height:300px;
+    }
+    .info p{
+        font-size:25px;
+    }
+    .day_ob{
+        margin:25px 0;
+    }
+    .walk_ob {
+        margin:25px 100px;
+    }
+    .catch_ob{
+        margin:25px 0;
+    }
+    .anime_logo img{
+        width:500px;
+        height:auto;
+        margin:25px 350px;
+    }
+    .anime_img img{
+        width:1175px;
+        height:auto
+    }
+    .anime_img h3{
+        width:800px;
+        font-size:50px;
+    }
+    .anime_info img{
+        width:300px;
+        height:300px;
+    }
+    .character_ob{
+        margin:0 100px;
+    }
+    .region_ex p{
+        font-size:25px;
+    }
+    .character_ex p{
+        font-size:25px;
+    }
+    .my_favorite_pokemon_ex p{
+        font-size:25px;
+    }
+    .region_ob p{
+        font-size:30px;
+    }
+    .character_ob p{
+        font-size:30px;
+    }
+    .my_favorite_pokemon_ob p{
+        font-size:30px;
     }
 }
 
