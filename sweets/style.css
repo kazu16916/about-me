@@ -348,21 +348,158 @@ body{
     }
 
 }
-@media(max-width: 960px){
-    body{
-        width:810px;
+@media(min-width: 421px){
+    .want_message p{
+        width:400px;
+        margin:25px 210px;
+        font-size:25px;
     }
-    .main{
-        width:760px;
+}
+@media(min-width: 960px){
+    
+    .sweets_start img{
+        width:1175px!important;
+        height:auto;
+        margin-top:50px;
     }
-    .want{
-        margin:0 0 0 50px;
+    .sweets_title h2{
+        width:500px;
+        font-size:50px;
+        top:670px;
+        left:800px;
+    }
+    .sweets_title2 h3{
+        width:500px;
+        font-size:35px;
+        top:740px;
+        left:652px;
+    }
+    .sweets_ex p{
+        width:700px;
+        font-size:30px;
+        margin:50px 330px;
+    }
+    .fresh_cream{
+        width:350px;
+        height:420px;
+    }
+    .fresh_cream p{
+        font-size:30px;
+    }
+    .fresh_cream_img img{
+        width:300px;
+        height:auto;
+    }
+
+    .peach{
+        width:350px;
+        height:420px;
+        margin:30px 90px;
+    }
+    .peach p{
+        font-size:30px;
+    }
+    .peach_img img{
+        width:300px;
+        height:auto;
+    }
+
+    .cheese{
+        width:350px;
+        height:420px;
+    }
+    .cheese p{
+        font-size:30px;
+    }
+    .Cheese_img img{
+        width:300px;
+        height:auto;
+    }
+    .sweets_buffet_logo img{
+        width:700px;
+        height:auto;
+        margin:50px 275px 0 275px ;
+    }
+    .sweets_buffet_picture img{
+        width:1175px;
+        height:auto;
+    }
+    .sweets_buffet_message h2{
+        width:800px;
+        font-size:45px;
+    }
+    .sweets_buffet_message h3{
+        width:900px;
+        font-size:40px;
+        top:110px;
     }
     .want_message p{
-        width:500px;
-        font-size:30px;
-        margin:0 160px;
+        width:800px;
+        font-size:40px;
+        margin:25px 345px 10px 345px;
     }
-    
-    
+
+    .cakes{
+        width:340px;
+        height:470px;
+    }
+    .cakes p{
+        font-size:30px;
+    }
+    .cakes_img img{
+        width:300px;
+        height:auto;
+        margin:20px 20px;
+    }
+
+    .donuts{
+        width:340px;
+        height:470px;
+        margin:0 78px;
+    }
+    .donuts p{
+        font-size:30px;
+    }
+    .donuts_img img{
+        width:300px;
+        height:auto;
+        margin:20px 20px;
+    }
+
+    .Macarons{
+        width:340px;
+        height:470px;
+    }
+    .Macarons p{
+        font-size:30px;
+    }
+    .Macarons_img img{
+        width:300px;
+        height:auto;
+        margin:20px 20px;
+    }
+    .sweets_buffet_invite_message p{
+        width:900px;
+        font-size:50px;
+        margin:0 175px;
+    }
+    .sweets_buffet_invite_message::before{
+        width:900px;
+        width:275px;
+        margin:0 175px;
+    }
+    .sweets_buffet_invite_picture img{
+        width:1175px;
+        height:auto;
+    }
+    .invite p{
+        width:900px;
+        font-size:25px;
+        margin:50px 215px;
+    }
+    footer{
+        margin:0 100px!important;
+    }
+
+
 }

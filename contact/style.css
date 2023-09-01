@@ -17,7 +17,7 @@
         background-size:900px;
     }
 }
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 960px) {
     
     .nav1 {
         width:600px;
@@ -28,8 +28,8 @@
     }
     main {
         width:668px;
-        margin:0 50px;
-        padding:0 25px;
+        margin:0 300px;
+        padding:0 300px;
     }
     
 }
@@ -163,7 +163,10 @@
 .button {
     margin-bottom:100px;
 }
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 960px) {
+    Form{
+        margin:0 300px;
+    }
     footer{
         width:668px;
         margin:0 145px!important;
