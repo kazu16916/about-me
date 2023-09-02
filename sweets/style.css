@@ -357,6 +357,12 @@ body{
 }
 @media(min-width: 960px){
     
+    .nav1 ul{
+        margin:30px 200px!important;
+    }
+    main{
+        margin:0 100px!important;
+    }
     .sweets_start img{
         width:1175px!important;
         height:auto;
@@ -498,7 +504,7 @@ body{
         margin:50px 215px;
     }
     footer{
-        margin:0 100px!important;
+        margin:0 150px!important;
     }
 
 

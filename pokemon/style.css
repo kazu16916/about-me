@@ -346,7 +346,10 @@ body{
 }
 @media(min-width: 960px){
     .nav1 ul{
-        margin:30px 50px!important;
+        margin:30px 200px!important;
+    }
+    main{
+        margin:0 100px;
     }
     .pokemon_img img{
         width:1175px;
@@ -437,6 +440,9 @@ body{
     }
     .my_favorite_pokemon_ob p{
         font-size:30px;
+    }
+    footer{
+        margin:0 125px;
     }
 }
 

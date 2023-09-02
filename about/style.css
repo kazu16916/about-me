@@ -828,4 +828,68 @@
         margin:0 110px!important;
     }
 }
+@media(min-width: 960px){
+    .start_img img{
+        width:1175px;
+        height:auto;
+        margin-top:50px;
+    }
+    .start_message1 h1{
+        width:1000px;
+        font-size: 80px;
+        top:100px;
+        left:200px;
+    }
+    .start_message2 h2{
+        width:1000px;
+        font-size:55px;
+        top:190px;
+        left:200px;
+    }
+    .start {
+        margin:50px 240px;
+    }
+    .my_info {
+        width:1300px;
+        display:inline-block;
+        margin:50px 75px;
+    }
+    .my_info1{
+        width:600px;
+        margin:0 0
+    }
+    .my_info2{
+        width:600px;
+        margin:0 0
+    }
+    .birthday{
+        margin-right:50px;
+    }
+    .age{
+        margin-right:0px;
+    }
+    .from{
+        margin-right:50px;
+    }
+    .myfavorite_logo img{
+        width:600px;
+        height:auto;
+        margin:100px 350px 50px 350px;
+    }
+    .my_favorite{
+        margin:0 275px;
+    }
+    .animal{
+        margin:0 0;
+    }
+    .finally{
+        margin:50px 350px;
+    }
+    .finally_message2{
+        width:1100px;
+        font-size:30px;
+        margin:0 00px;
+    }
+}
+
 

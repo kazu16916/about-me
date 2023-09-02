@@ -1049,7 +1049,9 @@ margin:25px 50px;
     .pokemon_ranking7_p p{
         width:1100px
     }
-    
+    footer{
+        margin:0 160px!important;
+    }
 }
 
 
