@@ -290,10 +290,12 @@ body{
 @media(min-width: 481px){
     body{
         width:500px;
+        margin:0 0!important;
     }
     .nav1 ul{
-        margin:15px 0px
+        margin:15px 0;
     }
+    
     .pokemon_title2 h2{
         width:700px;
         font-size:20px;

@@ -391,7 +391,7 @@ margin:25px 50px;
 }
 
 
-@media(max-width: 420px){
+@media(max-width: 480px){
     body{
         width:414px;
         padding-right:0px;
@@ -718,7 +718,7 @@ margin:25px 50px;
     }
     
 }
-@media(min-width: 420px){
+@media(min-width: 481px){
     .melody_picture img{
         margin:0 75px;
     }

@@ -76,6 +76,7 @@ body{
     height:auto;
 
 }
+
 /* ヘッダー */
 header {
     width: 768px;
@@ -352,7 +353,10 @@ footer a:hover{
     margin:auto;
     width:20%;
 }
-@media(max-width: 420px){
+@media(max-width: 480px){
+    #page-top{
+        display:none;
+    }
     body{
         width:320px;
         display:inline-block;
@@ -360,7 +364,7 @@ footer a:hover{
     }
 }
 
-@media(min-width: 420px){
+@media(min-width: 481px){
     body{
         width:810px;
         height:auto;
