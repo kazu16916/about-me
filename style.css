@@ -614,11 +614,14 @@ footer a:hover{
         width:1300px;
         margin:0 50px!important;
     }
+    main{
+        margin:0 180px;
+    }
     header{
         margin:0 150px;
     }
     footer{
-        margin:0 270px;
+        margin:0 280px;
     }
     
 }
