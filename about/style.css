@@ -898,6 +898,9 @@
     .start_message2 h2{
         left:400px!important;
     }
+    header{
+        margin:0 170px!important;
+    }
     main{
         margin:0 225px!important;
     }

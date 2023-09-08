@@ -358,7 +358,7 @@ body{
 @media(min-width: 960px){
     
     .nav1 ul{
-        margin:30px 200px!important;
+        margin:30px 0!important;
     }
     main{
         margin:0 100px!important;
@@ -517,7 +517,7 @@ body{
         margin:0 250px!important;
     }
     header{
-        margin:0 110px!important;
+        margin:0 170px!important;
     }
     footer{
         margin:0 300px!important;

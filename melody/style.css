@@ -1055,6 +1055,9 @@ margin:25px 50px;
 }
 
 @media(min-width: 1375px){
+    header{
+        margin:0 170px!important;
+    }
     footer{
         margin:0 275px!important;
     }
