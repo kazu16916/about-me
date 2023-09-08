@@ -71,9 +71,9 @@
 
 body{
     background-color: #ffffcc;
-    display:inline-block;
     width:768px;
     height:auto;
+    margin:auto;
 
 }
 
@@ -480,10 +480,14 @@ footer a:hover{
 
 
 @media(min-width: 960px){
-    body{
+    main{
         width:960px;
         margin:0 auto;
-        width:100%;
+
+    }
+    body{
+        width: 1980px;
+        margin: auto;
     }
     header img{
         width:400px;
@@ -565,6 +569,9 @@ footer a:hover{
         width:1175px;
         height:auto;
     }
+    footer a:visited{
+        color: white;
+    }
     .main_logo img{
         width:400px;
         height:auto;
@@ -599,6 +606,19 @@ footer a:hover{
     }
     .contact2 span{
         padding-left:371px;
+    }
+    
+}
+@media(min-width: 1375px){
+    body{
+        width:1300px;
+        margin:0 50px!important;
+    }
+    header{
+        margin:0 150px;
+    }
+    footer{
+        margin:0 270px;
     }
     
 }

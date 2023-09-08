@@ -891,5 +891,19 @@
         margin:0 00px;
     }
 }
-
+@media(min-width: 1375px){
+    .start_message1 h1{
+        left:400px!important;
+    }
+    .start_message2 h2{
+        left:400px!important;
+    }
+    main{
+        margin:0 225px!important;
+    }
+    footer{
+        margin:0 315px!important;
+    }
+    
+}
 
