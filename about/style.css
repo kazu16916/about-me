@@ -891,7 +891,7 @@
         margin:0 00px;
     }
 }
-@media(min-width: 1375px){
+@media(min-width: 1600px){
     .start_message1 h1{
         left:400px!important;
     }

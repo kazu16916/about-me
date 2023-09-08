@@ -176,7 +176,7 @@ span{
     color:red;
 }
 
-@media(min-width: 1375px){
+@media(min-width: 1600px){
     body{
         width:1300px;
         margin:0 200px!important;
