@@ -1054,5 +1054,12 @@ margin:25px 50px;
     }
 }
 
+@media(min-width: 1375px){
+    footer{
+        margin:0 275px!important;
+    }
+    
+}
+
 
 

@@ -447,6 +447,21 @@ body{
         margin:0 125px;
     }
 }
-
+@media(min-width: 1375px){
+    body{
+        width:1300px;
+        margin:0 50px!important;
+    }
+    main{
+        margin:0 225px;
+    }
+    header{
+        margin:0 110px;
+    }
+    footer{
+        margin:0 245px;
+    }
+    
+}
 
 

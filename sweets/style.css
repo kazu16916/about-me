@@ -508,3 +508,19 @@ body{
 
 
 }
+@media(min-width: 1375px){
+    body{
+        width:1300px;
+        margin:0 200px!important;
+    }
+    main{
+        margin:0 225px!important;
+    }
+    header{
+        margin:0 110px!important;
+    }
+    footer{
+        margin:0 245px!important;
+    }
+    
+}
